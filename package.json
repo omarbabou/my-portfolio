@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/omarbabou/personal-portfolio/issues"
   },
-  "homepage": "https://github.com/omarbabou/personal-portfolio#readme"
+  "homepage": "https://github.com/omarbabou/personal-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  }
 }
