@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-clone Repository this repository: 
+clone this repository: 
 
 git clone https://github.com/omarbabou/portfolio-mobile-version-skeleton.git
 
