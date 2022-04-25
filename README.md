@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Portfolio-mobile-version-skeleton
+## Portfolio-mobile-version-skeleton
 
 > Build my skeleton version mobile portfolio using HTML/CSS only.
 ## Screenshoots
@@ -21,18 +21,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-. You should have basic knowledge of HTML, CSS, Grid, Flexbox, Github, Git, Linters and Figma.
-. You must install live server in your source-code editor.
-. Create the index.html file and then open it in the browser via live server.
+1. You should have basic knowledge of HTML, CSS, Grid, Flexbox, Github, Git, Linters and Figma.
+2. You must install live server in your source-code editor.
+3. Create the index.html file and then open it in the browser via live server.
 
 ### Setup
 
-. Linters 
+1. Linters 
 
 ### Install
 
-. Git
-. Node 
+1. Git
+1. Node 
 
 ### Usage
 
