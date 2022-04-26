@@ -3,8 +3,8 @@
 ## Portfolio-mobile-version-skeleton
 
 > Build my skeleton version mobile portfolio using HTML/CSS only.
-## Screenshoots
-![screenshoot](./pic.png)
+## Screenshots
+![screenshot](./pic.png)
 
 ## Built With
 
