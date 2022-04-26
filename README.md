@@ -70,3 +70,6 @@ This project is [MIT](./MIT.md) licensed.
 
 # Personal-Portfolio
 Build my skeleton version mobile portfolio using HTML/CSS.
+
+# portfolio-mobile-version-skeleton
+Build my skeleton version mobile portfolio using HTML/CSS only.
