@@ -18,7 +18,7 @@ body {
   letter-spacing: 0;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
