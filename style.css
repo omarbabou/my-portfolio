@@ -98,6 +98,11 @@ h3 span {
   letter-spacing: 0;
   color: #7A869A;
 }
+
+.canopy-card {
+  background: #E5E5E5;
+}
+
 .snapshoot-portfolio {
   width: 100%;
   margin: 0 auto;
@@ -106,7 +111,7 @@ h3 span {
 .canopy-card-section {
   display: flex;
   background: #FFFFFF;
-  height: 573px;
+  height: 580px;
   width: 327px;
   left: 24px;
   top: 754px;
