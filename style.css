@@ -164,6 +164,7 @@ h3 span {
 .project-card {
   width: 100%;
   margin: -5px auto;
+  
 }
 
 .project-card p { 
@@ -172,6 +173,7 @@ h3 span {
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
+
 }
 
 .project-card li {
@@ -186,6 +188,7 @@ h3 span {
   padding: 7px;
   list-style: none;
   border-radius: 8px;
+
 }
 
 .project-card ul {
@@ -199,8 +202,10 @@ h3 span {
   letter-spacing: 0.03;
   color: #396DF2;
   border: 1px solid #396DF2;
-  padding: 7px;
+  padding: 7px 16px;
+  margin: 16px auto;
   border-radius: 8px;
   background: #FFFFFF;
   cursor: pointer;
+  flex-wrap: wrap;
 }
