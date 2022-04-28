@@ -222,3 +222,21 @@ h5 {
   cursor: pointer;
   flex-wrap: wrap;
 }
+
+.skill p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #344563;
+
+}
+
+.social_media p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #7F8CFF;
+
+}
