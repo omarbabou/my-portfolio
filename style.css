@@ -115,8 +115,8 @@ h3 span {
   gap: 12px;
   flex-direction: column;
   border: 1px solid #DFE1E6;
-  margin: 50px auto;
-  margin-bottom: 70px;
+  margin: 70px auto;
+
 }
 
 .canopy-second-card-section {
@@ -129,8 +129,8 @@ h3 span {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 10px auto;
-  margin-bottom: 70px;
+  margin: 70px auto;
+
 }
 
 .canopy-third-card-section {
@@ -143,8 +143,8 @@ h3 span {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 10px auto;
-  margin-bottom: 70px;
+  margin: 70px auto;
+
 }
 
 .canopy-fourth-card-section {
@@ -157,8 +157,8 @@ h3 span {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 10px auto;
-  margin-bottom: 70px;
+  margin: 70px auto;
+
 }
 
 .project-card {
