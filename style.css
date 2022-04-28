@@ -99,6 +99,15 @@ h3 span {
   color: #7A869A;
 }
 
+h5 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #172B4D;
+
+}
+
 .canopy-card {
   background: #E5E5E5;
 }
