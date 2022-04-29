@@ -5,6 +5,9 @@
 > Build my skeleton version mobile portfolio using HTML/CSS only.
 ## Screenshots
 ![screenshot](./pic.png)
+
+> Build my skeleton version mobile portfolio using HTML/CSS only.
+# Using flexbox, grid, ...
 ![screenshot](./imgg.png)
 
 ## Built With
