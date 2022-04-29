@@ -5,6 +5,7 @@
 > Build my skeleton version mobile portfolio using HTML/CSS only.
 ## Screenshots
 ![screenshot](./pic.png)
+![screenshot](./imgg.png)
 
 ## Built With
 
