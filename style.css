@@ -80,7 +80,7 @@ h2 {
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 h3 {
@@ -96,7 +96,7 @@ h3 span {
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 h5 {
@@ -104,23 +104,21 @@ h5 {
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
-  color: #172B4D;
+  color: #172b4d;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 30px auto;
-
 }
 
 .canopy-card {
-  background: #F7F7F9;
+  background: #f7f7f9;
   padding: 20px 0;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-auto-rows: auto;
   grid-gap: 1rem;
- 
 }
 
 .snapshoot-portfolio {
@@ -130,7 +128,7 @@ h5 {
 
 .canopy-card-section {
   display: flex;
-  background: #FFFFFF;
+  background: #ffffff;
   height: 580px;
   width: 327px;
   left: 24px;
@@ -139,13 +137,12 @@ h5 {
   padding: 16px;
   gap: 12px;
   flex-direction: column;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   margin: 15px auto;
-  
 }
 
 .canopy-second-card-section {
-  background: #FFFFFF;
+  background: #ffffff;
   height:  610px;
   width: 327px;
   left: 24px;
@@ -153,13 +150,12 @@ h5 {
   border-radius: 16px;
   padding: 16px;
   gap: 12px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   margin: 15px auto;
-
 }
 
 .canopy-third-card-section {
-  background: #FFFFFF;
+  background: #ffffff;
   height: 573px;
   width: 327px;
   left: 24px;
@@ -167,13 +163,12 @@ h5 {
   border-radius: 16px;
   padding: 16px;
   gap: 12px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   margin: 15px auto;
-
 }
 
 .canopy-fourth-card-section {
-  background: #FFFFFF;
+  background: #ffffff;
   height: 610px;
   width: 327px;
   left: 24px;
@@ -181,9 +176,8 @@ h5 {
   border-radius: 16px;
   padding: 16px;
   gap: 12px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   margin: 15px auto;
-
 }
 
 .project-card {
@@ -198,7 +192,6 @@ h5 {
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
-
 }
 
 .project-card li {
@@ -207,17 +200,32 @@ h5 {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03;
-  color: #6070FF;
-  background: #EBEBFF;
+  color: #6070ff;
+  background: #ebebff;
   margin-right: 5px;
   padding: 7px;
   list-style: none;
   border-radius: 8px;
-
 }
 
 .project-card ul {
   padding: 0;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 10px 21px;
+  margin: 16px auto;
+  margin-left: 20px;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .project-card button {
@@ -225,12 +233,12 @@ h5 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03;
-  color: #396DF2;
-  border: 1px solid #396DF2;
+  color: #396df2;
+  border: 1px solid #396df2;
   padding: 7px 16px;
   margin: 16px auto;
   border-radius: 8px;
-  background: #FFFFFF;
+  background: #ffffff;
   cursor: pointer;
   flex-wrap: wrap;
 }
@@ -246,7 +254,6 @@ h5 {
   align-items: center;
   width: 90%;
   margin: 20px auto;
-
 }
 
 .social_media p {
@@ -254,7 +261,7 @@ h5 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
-  color: #7F8CFF;
+  color: #7f8cff;
 
 }
 
@@ -267,32 +274,14 @@ h5 {
   margin-right: -20px;
 }
 
-button {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03;
-  color: #396DF2;
-  border: 1px solid #396DF2;
-  padding: 10px 21px;
-  margin: 16px auto;
-  margin-left: 20px;
-  border-radius: 8px;
-  background: #FFFFFF;
-  cursor: pointer;
-  flex-wrap: wrap;
-}
-
 .languages-skills img {
   height: 72px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   margin-left: 20px;
 }
 
 .my-skills img {
-
-   margin-left: 34px;
-
+  margin-left: 34px;
 }
