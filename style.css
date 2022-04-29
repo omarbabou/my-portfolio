@@ -255,12 +255,13 @@ button {
   margin: 20px auto;
 }
 
-.social_media p {
+.social_media h4 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
   color: #7f8cff;
+  margin-left: 21px;
 }
 
 .social_media ul {
