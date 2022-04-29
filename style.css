@@ -234,6 +234,11 @@ h5 {
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
 
 }
 
@@ -246,6 +251,15 @@ h5 {
 
 }
 
+.social_media ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-right: -10px;
+}
+
 button {
   font-size: 15px;
   font-weight: 500;
@@ -255,6 +269,7 @@ button {
   border: 1px solid #396DF2;
   padding: 7px 16px;
   margin: 16px auto;
+  margin-left: 20px;
   border-radius: 8px;
   background: #FFFFFF;
   cursor: pointer;
