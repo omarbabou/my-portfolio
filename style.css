@@ -143,7 +143,7 @@ h5 {
 
 .canopy-second-card-section {
   background: #fff;
-  height:  610px;
+  height: 610px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -194,7 +194,7 @@ h5 {
 }
 
 .project-card li {
-  display: inline-block; 
+  display:inline-block; 
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
@@ -205,7 +205,7 @@ h5 {
   padding: 7px;
   list-style: none;
   border-radius: 8px;
-}
+  }
 
 .project-card ul {
   padding: 0;
