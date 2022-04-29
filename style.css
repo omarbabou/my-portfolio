@@ -248,7 +248,7 @@ h5 {
   line-height: 24px;
   letter-spacing: 0;
   color: #7F8CFF;
-
+  
 }
 
 .social_media ul {
@@ -276,3 +276,26 @@ button {
   flex-wrap: wrap;
 }
 
+.languages img {
+  height: 72px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  margin-left: 20px;
+}
+
+.my-skills img {
+  width: 303px;
+  left: 30px;
+  top: 12px;
+  border-radius: 8px;
+  height: 68px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 2px 0;
+  margin-left: 34px;
+  padding-right: 240px;
+  padding-left: 10px;
+  background: #F7F7F9;
+}
