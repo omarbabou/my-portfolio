@@ -105,6 +105,11 @@ h5 {
   line-height: 52px;
   letter-spacing: 0;
   color: #172B4D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 
 }
 
@@ -240,3 +245,19 @@ h5 {
   color: #7F8CFF;
 
 }
+
+button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396DF2;
+  border: 1px solid #396DF2;
+  padding: 7px 16px;
+  margin: 16px auto;
+  border-radius: 8px;
+  background: #FFFFFF;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
