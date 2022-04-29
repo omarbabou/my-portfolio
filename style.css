@@ -128,7 +128,7 @@ h5 {
 
 .canopy-card-section {
   display: flex;
-  background: #ffffff;
+  background: #fff;
   height: 580px;
   width: 327px;
   left: 24px;
@@ -142,7 +142,7 @@ h5 {
 }
 
 .canopy-second-card-section {
-  background: #ffffff;
+  background: #fff;
   height:  610px;
   width: 327px;
   left: 24px;
@@ -155,7 +155,7 @@ h5 {
 }
 
 .canopy-third-card-section {
-  background: #ffffff;
+  background: #fff;
   height: 573px;
   width: 327px;
   left: 24px;
@@ -168,7 +168,7 @@ h5 {
 }
 
 .canopy-fourth-card-section {
-  background: #ffffff;
+  background: #fff;
   height: 610px;
   width: 327px;
   left: 24px;
@@ -183,7 +183,6 @@ h5 {
 .project-card {
   width: 100%;
   margin: -5px auto;
-  
 }
 
 .project-card p { 
@@ -223,7 +222,7 @@ button {
   margin: 16px auto;
   margin-left: 20px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
 }
@@ -238,7 +237,7 @@ button {
   padding: 7px 16px;
   margin: 16px auto;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
 }
@@ -262,7 +261,6 @@ button {
   line-height: 24px;
   letter-spacing: 0;
   color: #7f8cff;
-
 }
 
 .social_media ul {
