@@ -114,7 +114,8 @@ h5 {
 }
 
 .canopy-card {
-  background: #E5E5E5;
+  background: #F7F7F9;
+  padding: 20px 0;
 }
 
 .snapshoot-portfolio {
@@ -134,7 +135,7 @@ h5 {
   gap: 12px;
   flex-direction: column;
   border: 1px solid #DFE1E6;
-  margin: 70px auto;
+  margin: 30px auto;
 }
 
 .canopy-second-card-section {
@@ -147,7 +148,7 @@ h5 {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 70px auto;
+  margin: 30px auto;
 
 }
 
@@ -161,7 +162,7 @@ h5 {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 70px auto;
+  margin: 30px auto;
 
 }
 
@@ -175,7 +176,7 @@ h5 {
   padding: 16px;
   gap: 12px;
   border: 1px solid #DFE1E6;
-  margin: 70px auto;
+  margin: 30px auto;
 
 }
 
@@ -248,7 +249,7 @@ h5 {
   line-height: 24px;
   letter-spacing: 0;
   color: #7F8CFF;
-  
+
 }
 
 .social_media ul {
@@ -276,7 +277,7 @@ button {
   flex-wrap: wrap;
 }
 
-.languages img {
+.languages-skills img {
   height: 72px;
   width: 327px;
   left: 0px;
@@ -285,17 +286,7 @@ button {
 }
 
 .my-skills img {
-  width: 303px;
-  left: 30px;
-  top: 12px;
-  border-radius: 8px;
-  height: 68px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 2px 0;
-  margin-left: 34px;
-  padding-right: 240px;
-  padding-left: 10px;
-  background: #F7F7F9;
+
+   margin-left: 34px;
+
 }
