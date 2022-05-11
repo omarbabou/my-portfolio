@@ -59,7 +59,7 @@ ul {
 }
 
 .content {
-  background: no-repeat center/100% url("./img/header-shapes mobile.svg");
+  background: no-repeat center/100% url('./img/header-shapes mobile.svg');
   height: 85vh;
 }
 
@@ -220,7 +220,7 @@ button {
   border: 1px solid #396df2;
   padding: 10px 21px;
   margin: 16px auto;
-  margin-left: 20px;
+  margin-left: 24px;
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
@@ -283,4 +283,69 @@ button {
 
 .my-skills img {
   margin-left: 34px;
+}
+
+h6 {
+  font-size: 35px;
+  font-weight: 700, bold;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 100px 50px auto;
+  padding-left: 20px;
+}
+
+.contact-me {
+  height: 96vh;
+  background: no-repeat right/45% url('./img/contact form shapes-mobile@2x.svg');
+  background-color: #6070ff;
+}
+
+.contact-me p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: #ebebff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  margin: 30px auto;
+  padding-left: 10px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 16px 24px auto;
+  color: #b3bac5;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  flex: 1.5;
+}
+
+input {
+  height: 48px;
+}
+
+textarea {
+  height: 170px;
 }
