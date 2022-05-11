@@ -220,7 +220,7 @@ button {
   border: 1px solid #396df2;
   padding: 10px 21px;
   margin: 16px auto;
-  margin-left: 20px;
+  margin-left: 24px;
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
@@ -290,12 +290,13 @@ h6 {
   font-weight: 700, bold;
   line-height: 52px;
   letter-spacing: 0;
-  color: #172b4d;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 100px 50px auto;
+  padding-left: 20px;
 }
 
 .contact-me {
@@ -307,14 +308,15 @@ h6 {
 .contact-me p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 27px;
   letter-spacing: 0;
-  color: #344563;
+  color: #ebebff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 82%;
   margin: 30px auto;
+  padding-left: 10px;
 }
 
 form {
@@ -330,7 +332,7 @@ textarea {
   border-radius: 8px;
   border: none;
   outline: none;
-  margin: 10px 18px auto;
+  margin: 16px 24px auto;
 }
 
 input {
