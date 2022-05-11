@@ -310,3 +310,25 @@ h6 {
   width: 90%;
   margin: 20px auto;
 }
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  margin: 10px 18px auto;
+}
+
+input {
+  height: 48px;
+}
+
+textarea {
+  height: 170px;
+}
