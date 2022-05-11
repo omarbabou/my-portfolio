@@ -290,7 +290,30 @@
             to help with it.
           </p>
 
-          <form action="#" method="post"></form>
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Full name"
+              minlength="30"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+
+            <textarea
+              name="comments"
+              placeholder="Write your message here"
+              minlength="500"
+              maxlength="500"
+              required
+            ></textarea>
+          </form>
         </section>
       </section>
     </main>
