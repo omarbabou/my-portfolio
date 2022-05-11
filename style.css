@@ -286,7 +286,7 @@ button {
 }
 
 h6 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700, bold;
   line-height: 52px;
   letter-spacing: 0;
@@ -295,7 +295,13 @@ h6 {
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 30px 50px auto;
+  margin: 100px 50px auto;
+}
+
+.contact-skills {
+  height: 96vh;
+  background: no-repeat right/45% url('./img/contact form shapes-mobile@2x.svg');
+  background-color: #6070ff;
 }
 
 .contact-skills p {
@@ -307,8 +313,8 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 20px auto;
+  width: 82%;
+  margin: 30px auto;
 }
 
 form {
@@ -322,6 +328,8 @@ textarea {
   left: 0;
   top: 0;
   border-radius: 8px;
+  border: none;
+  outline: none;
   margin: 10px 18px auto;
 }
 
