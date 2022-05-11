@@ -334,6 +334,12 @@ textarea {
   outline: none;
   margin: 16px 24px auto;
   color: #b3bac5;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  flex: 1.5;
 }
 
 input {
