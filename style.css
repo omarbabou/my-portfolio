@@ -59,7 +59,7 @@ ul {
 }
 
 .content {
-  background: no-repeat center/100% url("./img/header-shapes mobile.svg");
+  background: no-repeat center/100% url('./img/header-shapes mobile.svg');
   height: 85vh;
 }
 
@@ -283,4 +283,30 @@ button {
 
 .my-skills img {
   margin-left: 34px;
+}
+
+h6 {
+  font-size: 40px;
+  font-weight: 700, bold;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #172b4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px 50px auto;
+}
+
+.contact-skills p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #344563;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
 }
