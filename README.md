@@ -54,13 +54,19 @@ clone this repository:
 
 git clone https://github.com/omarbabou/portfolio-mobile-version-skeleton.git
 
-## Authors
+## Author 1
 
 👤 Idrissa Omar
 
 - GitHub: [@omarbabou](https://github.com/omarbabou)
 - Twitter: [@BabouOmar3](https://twitter.com/BabouOmar3/photo)
 - LinkedIn: [idrissa-makoba](https://www.linkedin.com/in/idrissa-makoba-b5b906205/)
+
+## Authors 2
+
+👤 Abdullah Riaz
+
+- GitHub: [@engrabdullahriaz](https://github.com/engrabdullahriaz)
 
 ## 🤝 Contributing
 
