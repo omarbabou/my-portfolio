@@ -222,9 +222,15 @@ button {
   margin: 16px auto;
   margin-left: 24px;
   border-radius: 8px;
-  background: #fff;
+  background-color: #fff;
   cursor: pointer;
   flex-wrap: wrap;
+}
+
+button:hover {
+  color: #fff;
+  background: #6070ff;
+  border: 1px solid #fff;
 }
 
 .project-card button {
