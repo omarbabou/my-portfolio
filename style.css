@@ -300,8 +300,10 @@ h6 {
 }
 
 .contact-me {
-  height: 96vh;
-  background: no-repeat right/45% url('./img/contact form shapes-mobile@2x.svg');
+  height: 765px;
+  width: 375px;
+  background: no-repeat right/57% url('./img/contact form shapes-mobile@2x.svg');
+  border-top-left-radius: 80px;
   background-color: #6070ff;
 }
 
