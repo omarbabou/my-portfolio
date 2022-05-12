@@ -14,12 +14,6 @@
 
 ![screenshot](./imgg.png)
 
-> Build my skeleton version mobile portfolio using HTML/CSS only.
-
-# Create forms with HTML5 validations.
-
-![screenshot](./contact1.png)
-
 ## Built With
 
 - HTML/CSS
@@ -89,7 +83,9 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 # Personal-Portfolio
+
 Build my skeleton version mobile portfolio using HTML/CSS.
 
 # portfolio-mobile-version-skeleton
+
 Build my skeleton version mobile portfolio using HTML/CSS only.
