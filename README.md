@@ -18,7 +18,7 @@
 
 # Create forms with HTML5 validations.
 
-![screenshot](./contact1.svg)
+![screenshot](./contact1.png)
 
 ## Built With
 
