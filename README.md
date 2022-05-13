@@ -3,17 +3,21 @@
 ## Portfolio-mobile-version-skeleton
 
 > Build my skeleton version mobile portfolio using HTML/CSS only.
+
 ## Screenshots
+
 ![screenshot](./pic.png)
 
 > Build my skeleton version mobile portfolio using HTML/CSS only.
+
 # Using flexbox, grid, ...
+
 ![screenshot](./imgg.png)
 
 ## Built With
 
-- HTML/CSS 
-- Linters 
+- HTML/CSS
+- Linters
 
 ## Live Demo (if available)
 
@@ -31,26 +35,32 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-1. Linters 
+1. Linters
 
 ### Install
 
 1. Git
-1. Node 
+1. Node
 
 ### Usage
 
-clone this repository: 
+clone this repository:
 
 git clone https://github.com/omarbabou/portfolio-mobile-version-skeleton.git
 
-## Authors
+## Author 1
 
 👤 Idrissa Omar
 
 - GitHub: [@omarbabou](https://github.com/omarbabou)
 - Twitter: [@BabouOmar3](https://twitter.com/BabouOmar3/photo)
 - LinkedIn: [idrissa-makoba](https://www.linkedin.com/in/idrissa-makoba-b5b906205/)
+
+## Authors 2
+
+👤 Abdullah Riaz
+
+- GitHub: [@engrabdullahriaz](https://github.com/engrabdullahriaz)
 
 ## 🤝 Contributing
 
@@ -73,7 +83,9 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 # Personal-Portfolio
+
 Build my skeleton version mobile portfolio using HTML/CSS.
 
 # portfolio-mobile-version-skeleton
+
 Build my skeleton version mobile portfolio using HTML/CSS only.
