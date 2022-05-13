@@ -316,16 +316,16 @@ h6 {
 }
 
 .contact-me p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 19px;
+  font-weight: 400, bold;
   line-height: 27px;
   letter-spacing: 0;
   color: #ebebff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 82%;
-  margin: 30px auto;
+  width: 312px;
+  margin: 17px auto;
   padding-left: 10px;
 }
 
