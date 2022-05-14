@@ -20,4 +20,16 @@
     display: flex;
     margin-right: 200px;
   }
+
+  .lists ul li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #344563;
+    cursor: pointer;
+  }
 }
