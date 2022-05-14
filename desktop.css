@@ -64,4 +64,14 @@
     margin-right: -190px;
     display: inline-block;
   }
+
+  .subcontent {
+    background: no-repeat center/100% url('./img/Headerbg-1.svg');
+    min-height: 841px;
+  }
+
+  .canopy-card {
+    background: #e5e5e5;
+    width: 100%;
+  }
 }
