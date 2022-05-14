@@ -292,72 +292,74 @@ button:hover {
   margin-left: 34px;
 }
 
-h6 {
-  font-size: 35px;
-  font-weight: 700, bold;
-  line-height: 52px;
-  letter-spacing: 0;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 100px 50px auto;
-  padding-left: 20px;
+.contact {
+  background-color: white;
 }
 
-.contact-me {
-  height: 765px;
-  width: 375px;
-  background: no-repeat right/57% url('./img/contact form shapes-mobile@2x.svg');
-  border-top-left-radius: 80px;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./img/contact form shapes-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 5px;
   background-color: #6070ff;
+  border-top-left-radius: 85px;
+}
+
+.contact h2,
+.contact p {
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
   margin-top: 80px;
 }
 
-.contact-me p {
-  font-size: 19px;
-  font-weight: 400, bold;
-  line-height: 27px;
-  letter-spacing: 0;
-  color: #ebebff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 312px;
-  margin: 17px auto;
-  padding-left: 10px;
+.contact p {
+  margin: 0;
+  max-width: 480px;
+  padding: 0 30px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 form {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+  align-items: center;
+  margin-top: 30px;
 }
 
 input,
 textarea {
-  width: 327px;
-  left: 0;
-  top: 0;
-  border-radius: 8px;
-  border: none;
+  font: inherit;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 10px;
   outline: none;
-  color: #172b4d;
-  margin: 16px 24px auto;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  align-items: center;
-  justify-content: center;
-  padding: 17px;
-  flex: 1.5;
+  border: none;
 }
 
-input {
-  height: 48px;
+form > * {
+  margin-bottom: 10px;
 }
 
 textarea {
-  height: 170px;
+  height: 9rem;
+}
+
+.x {
+  display: none;
+}
+
+small {
+  color: red;
 }
 
 .lists ul {
