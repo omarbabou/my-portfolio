@@ -308,14 +308,15 @@ button:hover {
   border-top-left-radius: 85px;
 }
 
-.contact h2,
+.contact h6,
 .contact p {
   color: white;
   text-align: center;
 }
 
-.contact h2 {
+.contact h6 {
   margin-top: 80px;
+  font-size: 40px;
 }
 
 .contact p {
