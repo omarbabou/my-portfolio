@@ -88,4 +88,17 @@
     display: flex;
     justify-content: center;
   }
+
+  .snapshoot-portfolio {
+    width: 50%;
+    height: 100%;
+  }
+
+  .snapshoot-portfolio img {
+    background: #eaeaed;
+    width: 100%;
+    object-fit: cover;
+    height: 448px;
+    border-radius: 8px;
+  }
 }
