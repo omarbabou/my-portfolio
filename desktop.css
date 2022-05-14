@@ -171,4 +171,26 @@
     margin-top: 10px;
     padding-top: -300px;
   }
+
+  .languanges-framework ul img {
+    display: block;
+    flex-direction: row;
+  }
+
+  .my-skills img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .contact-container {
+    background: no-repeat center/80%
+      url('./contact-form-background-desktop.svg');
+    background-color: #6070ff;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
