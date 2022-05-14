@@ -131,4 +131,21 @@
     margin-left: -0.5%;
     margin-top: 4%;
   }
+
+  .project-card button:hover {
+    color: #fff;
+    background: #6070ff;
+    border: 1px solid #fff;
+  }
+
+  .abt-myself {
+    height: 670px;
+    border-radius: 0 90px 0 0;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
 }
