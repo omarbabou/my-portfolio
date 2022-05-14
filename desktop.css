@@ -74,4 +74,18 @@
     background: #e5e5e5;
     width: 100%;
   }
+
+  .canopy-card-section,
+  .canopy-second-card-section,
+  .canopy-third-card-section,
+  .canopy-fourth-card-section {
+    height: 496px;
+    width: 78%;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
 }
