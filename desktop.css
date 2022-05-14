@@ -33,7 +33,7 @@
   }
 
   .logo {
-    margin-left: 50px;
+    margin-left: 150px;
   }
 
   h1 {
@@ -166,22 +166,6 @@
     margin-left: 0;
   }
 
-  .languanges-framework {
-    max-width: 647px;
-    margin-top: 10px;
-    padding-top: -300px;
-  }
-
-  .languanges-framework ul img {
-    display: block;
-    flex-direction: row;
-  }
-
-  .my-skills img {
-    width: 50%;
-    height: 50%;
-  }
-
   .contact-container {
     background: no-repeat center/80%
       url('./img/contact-form-background-desktop.svg');
@@ -192,5 +176,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .about-me {
+    width: 40%;
+  }
+
+  .about button {
+    margin: 20px 0 20px 0;
+    display: flex;
   }
 }

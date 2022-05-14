@@ -122,7 +122,6 @@ h5 {
 }
 
 .snapshoot-portfolio {
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -261,35 +260,77 @@ button:hover {
   width: 90%;
   margin: 20px auto;
 }
-
-.social_media h4 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #7f8cff;
-  margin-left: 21px;
+.about {
+  background: white;
+  border-top-right-radius: 80px;
 }
 
-.social_media ul {
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-top: 100px;
+}
+
+.about li {
   display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 30px;
-  margin-right: -20px;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
-.languages-skills img {
-  height: 72px;
-  width: 327px;
-  left: 0;
-  top: 0;
-  margin-left: 20px;
+.about .connect {
+  margin-top: 0;
+  color: #7f8cff;
 }
 
-.my-skills img {
-  margin-left: 34px;
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid orangered;
+}
+
+.about h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+
+}
+
+.cnt {
+  margin-bottom: 50px;
+  color: #344563;
+  font-size: 20px;
+}
+
+.about button {
+  margin: 20px 0 20px 0;
+  padding-letf: 10px;
 }
 
 .contact {
@@ -372,4 +413,7 @@ small {
   padding-right: 45px;
 }
 
-.
+.abt p {
+  max-width: 80%;
+  margin-left: 20px;
+}
