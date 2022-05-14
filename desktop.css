@@ -49,4 +49,19 @@
     font-size: 15px;
     color: #344563;
   }
+
+  h4 {
+    padding-left: 207px;
+    margin-top: 8px;
+  }
+
+  span {
+    color: #6b778c;
+  }
+
+  .subcontent ul li {
+    margin-left: 194px;
+    margin-right: -190px;
+    display: inline-block;
+  }
 }
