@@ -58,6 +58,10 @@ ul {
   padding: 0;
 }
 
+.img-card {
+  width: 100%;
+}
+
 .content {
   background: no-repeat center/100% url('./img/header-shapes mobile.svg');
   height: 85vh;
