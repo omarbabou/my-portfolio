@@ -1,9 +1,23 @@
 .img {
-    display: none;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+    overflow-y: visible;
   }
-  
-  @media (min-width: 768px) {
-    body {
-      overflow: hidden;
-      overflow-y: visible;
-    }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .lists ul {
+    display: flex;
+    margin-right: 200px;
+  }
+}
