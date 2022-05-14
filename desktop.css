@@ -82,14 +82,32 @@
   .canopy-second-card-section,
   .canopy-third-card-section,
   .canopy-fourth-card-section {
-    height: 496px;
-    width: 78%;
+    height: 90%;
+    width: 76%;
     left: 0;
     top: 0;
-    border-radius: 24px;
+    border-radius: 22px;
     background-color: white;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .canopy-fourth-card-section:hover {
+    border: 2px solid #dfe1e6;
+  }
+
+  .canopy-card-section:hover {
+    border: 2px solid #dfe1e6;
+  }
+
+  .canopy-second-card-section:hover {
+    border: 2px solid #dfe1e6;
+  }
+
+  .canopy-third-card-section:hover {
+    border: 2px solid #a7aeff;
   }
 
   .snapshoot-portfolio {
@@ -121,6 +139,10 @@
     align-items: center;
   }
 
+  form button {
+    align-items: center;
+  }
+
   .btn button {
     margin-left: 0;
   }
@@ -148,6 +170,13 @@
     color: #fff;
     background: #6070ff;
     border: 1px solid #fff;
+  }
+
+  .tooling {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 5%;
+    cursor: pointer;
   }
 
   .abt-myself {
@@ -186,6 +215,29 @@
   }
 
   .about-me {
-    width: 40%;
+    width: 30%;
+    margin-left: 5%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 50vh;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  input,
+  textarea {
+    font: inherit;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+
+  form > * {
+    margin-bottom: 10px;
   }
 }
