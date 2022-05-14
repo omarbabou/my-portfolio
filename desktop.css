@@ -161,4 +161,14 @@
   .links ul {
     margin: 0;
   }
+
+  .btn button {
+    margin-left: 0;
+  }
+
+  .languanges-framework {
+    max-width: 647px;
+    margin-top: 10px;
+    padding-top: -300px;
+  }
 }
