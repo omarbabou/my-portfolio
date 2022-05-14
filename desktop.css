@@ -148,4 +148,17 @@
     align-items: center;
     background: white;
   }
+
+  .abt-section {
+    width: 390px;
+  }
+
+  .let-connect h4 {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .links ul {
+    margin: 0;
+  }
 }
