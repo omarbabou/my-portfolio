@@ -35,4 +35,18 @@
   .logo {
     margin-left: 50px;
   }
+
+  h1 {
+    margin-top: 31px;
+    padding-left: 127px;
+    margin-left: 100px;
+  }
+
+  .subcontent p {
+    padding-left: 127px;
+    margin-left: 100px;
+    width: 70%;
+    font-size: 15px;
+    color: #344563;
+  }
 }
