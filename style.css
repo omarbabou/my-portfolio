@@ -264,6 +264,7 @@ button:hover {
   width: 90%;
   margin: 20px auto;
 }
+
 .about {
   background: white;
   border-top-right-radius: 80px;
@@ -333,7 +334,7 @@ button:hover {
 
 .about button {
   margin: 20px 0 20px 0;
-  padding-letf: 10px;
+  padding-left: 10px;
 }
 
 .contact {
