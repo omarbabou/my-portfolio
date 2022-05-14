@@ -58,6 +58,10 @@ ul {
   padding: 0;
 }
 
+.img-card {
+  width: 100%;
+}
+
 .content {
   background: no-repeat center/100% url('./img/header-shapes mobile.svg');
   height: 85vh;
@@ -122,7 +126,6 @@ h5 {
 }
 
 .snapshoot-portfolio {
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -262,100 +265,160 @@ button:hover {
   margin: 20px auto;
 }
 
-.social_media h4 {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #7f8cff;
-  margin-left: 21px;
+.about {
+  background: white;
+  border-top-right-radius: 80px;
 }
 
-.social_media ul {
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-top: 100px;
+}
+
+.about li {
   display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 30px;
-  margin-right: -20px;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
-.languages-skills img {
-  height: 72px;
-  width: 327px;
-  left: 0;
-  top: 0;
-  margin-left: 20px;
+.about .connect {
+  margin-top: 0;
+  color: #7f8cff;
 }
 
-.my-skills img {
-  margin-left: 34px;
+.stack {
+  display: flex;
+  flex-direction: column;
 }
 
-h6 {
-  font-size: 35px;
-  font-weight: 700, bold;
-  line-height: 52px;
-  letter-spacing: 0;
-  color: #fff;
+.stack li {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid orangered;
+}
+
+.about h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 100px 50px auto;
-  padding-left: 20px;
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
 }
 
-.contact-me {
-  height: 765px;
-  width: 375px;
-  background: no-repeat right/57% url('./img/contact form shapes-mobile@2x.svg');
-  border-top-left-radius: 80px;
-  background-color: #6070ff;
-  margin-top: 80px;
+.cnt {
+  margin-bottom: 50px;
+  color: #344563;
+  font-size: 20px;
 }
 
-.contact-me p {
-  font-size: 19px;
-  font-weight: 400, bold;
-  line-height: 27px;
-  letter-spacing: 0;
-  color: #ebebff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 312px;
-  margin: 17px auto;
+.about button {
+  margin: 20px 0 20px 0;
   padding-left: 10px;
 }
 
-form {
+.contact {
+  background-color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./img/contact form shapes-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 5px;
+  background-color: #6070ff;
+  border-top-left-radius: 85px;
+  margin-top: 50px;
+}
+
+.contact h6,
+.contact p {
+  color: white;
+  text-align: center;
+}
+
+.contact h6 {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.contact p {
   margin: 0;
-  padding: 0;
+  max-width: 480px;
+  padding: 0 30px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+  align-items: center;
+  margin-top: 30px;
 }
 
 input,
 textarea {
-  width: 327px;
-  left: 0;
-  top: 0;
-  border-radius: 8px;
-  border: none;
+  font: inherit;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 10px;
   outline: none;
-  color: #172b4d;
-  margin: 16px 24px auto;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  align-items: center;
-  justify-content: center;
-  padding: 17px;
-  flex: 1.5;
+  border: none;
 }
 
-input {
-  height: 48px;
+form > * {
+  margin-bottom: 10px;
 }
 
 textarea {
-  height: 170px;
+  height: 9rem;
+}
+
+.x {
+  display: none;
+}
+
+small {
+  color: red;
+}
+
+.lists ul {
+  display: none;
+}
+
+.lists ul li a {
+  margin-right: 10px;
+  padding-right: 45px;
+}
+
+.abt p {
+  max-width: 80%;
+  margin-left: 20px;
 }
