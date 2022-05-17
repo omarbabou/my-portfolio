@@ -21,7 +21,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://omarbabou.github.io/)
 
 ## Getting Started
 
