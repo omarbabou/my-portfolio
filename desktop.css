@@ -229,7 +229,8 @@
     margin-top: 41px;
     margin-left: 7px;
     font-size: 18px;
-    color: #000;
+    color: #344563;
+    font-weight: 500, bold;
   }
 
   .languages i {
@@ -244,7 +245,8 @@
     margin-top: 22px;
     margin-left: 5px;
     font-size: 18px;
-    color: #000;
+    color: #344563;
+    font-weight: 500, bold;
   }
 
   .frameworks i {
@@ -258,7 +260,8 @@
     margin-top: 22px;
     margin-left: 5px;
     font-size: 18px;
-    color: #000;
+    color: #344563;
+    font-weight: 500, bold;
   }
 
   .skills-2 i {
