@@ -424,7 +424,7 @@ textarea {
 }
 
 .x {
-  display: none;
+  display: flex;
 }
 
 small {
