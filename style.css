@@ -51,11 +51,16 @@ h4 {
   color: #7f8cff;
 }
 
+.let {
+  margin-top: -5px;
+}
+
 ul {
   display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 1px;
 }
 
 .img-card {
@@ -64,7 +69,7 @@ ul {
 
 .content {
   background: no-repeat center/100% url('./img/header-shapes mobile.svg');
-  height: 88vh;
+  height: 691px;
 }
 
 .subcontent {
@@ -73,6 +78,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 ul li {
@@ -226,9 +232,9 @@ button {
   font-family: 'Poppins', sans-serif;
   color: #396df2;
   border: 1px solid #396df2;
-  padding: 10px 21px;
-  margin: 16px auto;
-  margin-left: 24px;
+  padding: 10px 18px;
+  margin: 13px auto;
+  margin-right: 176px;
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
