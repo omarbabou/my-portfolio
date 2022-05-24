@@ -75,7 +75,7 @@
     background: #e5e5e5;
     width: 100%;
   }
-
+  /* 
   .popup-container {
     position: absolute;
     min-height: 100vh;
@@ -89,9 +89,9 @@
     cursor: pointer;
     align-items: center;
     margin-left: 180px;
-  }
+  } */
 
-  .popup-container p {
+  /*  .popup-container p {
     width: 50%;
   }
 
@@ -112,7 +112,7 @@
 
   .popup-detail .p {
     width: 100%;
-  }
+  } */
 
   .canopy-card-section,
   .canopy-second-card-section,
@@ -366,5 +366,69 @@
 
   form > * {
     margin-bottom: 10px;
+  }
+  .popup-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #blur_backgournd {
+    position: absolute;
+    background: #c1c7d0;
+    opacity: 0.9;
+    filter: blur(8px);
+    border: 1px solid red;
+    height: 200rem;
+    width: 100%;
+    margin: 0%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-section {
+    position: relative;
+    background: #fff;
+    margin-top: 1.5%;
+    top: 0%;
+    height: 100%;
+    width: 65%;
+    border-radius: 16px;
+    z-index: 10;
+  }
+  .popup-section {
+    border: 1px solid green;
+  }
+  .popup-detail {
+  }
+  .popup-detail > :nth-child(1) {
+    display: none;
+  }
+  .popup-detail > h2 > h2 {
+    border: 1px solid red;
+    display: block;
+    position: relative;
+  }
+  .popup-detail > h2 > h2 > h3 {
+    border: 1px solid red;
+  }
+  .screenshot_holder {
+  }
+  .screenshot_holder > img {
+  }
+  .para_text {
+  }
+  .para_text > ul {
+  }
+  .para_text > ul > li {
+  }
+  .para_text > ul > li > button {
   }
 }
