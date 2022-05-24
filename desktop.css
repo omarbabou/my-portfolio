@@ -374,7 +374,7 @@
     top: 0;
     left: 0;
     right: 0;
-  }
+  } 
   #blur_backgournd {
     position: absolute;
     background: #c1c7d0;
@@ -441,5 +441,5 @@
   .para_text > ul > li {
   }
   .para_text > ul > li > button {
-  }
+  } 
 }
