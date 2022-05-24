@@ -20,19 +20,94 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
 }
 
-.logo {
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
+}
+#logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
   color: #6070ff;
   text-decoration: none;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
+  color: #6070ff;
+}
+
+.display-icon {
+  display: block;
+  margin-top: -7px;
+}
+
+.no-display-icon {
+  display: none;
+  width: 20px;
+  margin: 1.3rem;
+  margin-top: 1px;
+}
+
+.open-menu .display-icon {
+  display: none;
+}
+
+.open-menu .no-display-icon {
+  display: block;
+  color: #fff;
+}
+
+.ul-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  padding-top: 130px;
+  padding-left: 10%;
+  padding-right: 90%;
+  height: 820px;
+  background-color: #6070ff;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+.ul-list li {
+  padding-top: 1rem;
+}
+
+.ul-list li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.open-menu .ul-list {
+  transform: translateX(0);
+  z-index: 5;
+}
+
+#logo {
+  font-size: 25px;
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 h1 {
