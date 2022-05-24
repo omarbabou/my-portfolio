@@ -24,12 +24,23 @@
     <title>Portfolio Mobile Version Skeleton</title>
   </head>
   <body>
+    <script src="js/index.js"></script>
+    <div class="menu-container" id="menuContainer">
+      <div class="menu-lists">
+        <div class="image-menu"><button id="onclickedClose" onclick="menu_Actionclose()"><img src="./img/Icon.svg" alt="close" /></button></div>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
     <header>
       <a href="#" class="logo">Idrissa</a>
 
       <nav>
-        <img src="./img/menu.svg" class="img" alt="" />
-        <div class="lists">
+        <button onclick="menu_Action()" id="onclickedOpened "><img src="./img/menu.svg" class="img" alt="" />
+          <div class="lists"></button>
           <ul>
             <li><img src="./img/Icon.svg" alt="close" /></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -39,7 +50,7 @@
         </div>
       </nav>
     </header>
-
+   
     <main class="content">
       <section class="subcontent">
         <h1>
