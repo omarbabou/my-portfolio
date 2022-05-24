@@ -31,14 +31,6 @@ nav {
   height: 100%;
   padding: 1.6rem;
 }
-#logo {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
-  color: #6070ff;
-  text-decoration: none;
-}
 
 .icons {
   display: block;
@@ -86,6 +78,10 @@ nav {
   justify-content: start;
   transform: translateX(-100%);
   transition: transform 1s;
+}
+
+ul li {
+  margin-right: 10px;
 }
 
 .ul-list li {
@@ -154,10 +150,6 @@ ul {
   justify-content: center;
   margin: 0 auto;
   padding-bottom: 100px;
-}
-
-ul li {
-  margin-right: 10px;
 }
 
 h2 {
