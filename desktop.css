@@ -346,10 +346,9 @@
   .popup-section{
     position: relative;
     background:#fff;
-    margin-top: 1.5%;
     top: 0%;
     height: 100%;
-    width: 65%;
+    width: 85%;
     border-radius: 16px;
     z-index: 10;
     
@@ -358,12 +357,18 @@
     border: 1px solid green;
   }
   .popup-detail{
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
 
   }
   .popup-detail>:nth-child(1){
 display: none;
   }
-  .popup-detail>h2>h2{
+  h2#heading_pop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     border: 1px solid red;
     display: block;
     position: relative;
