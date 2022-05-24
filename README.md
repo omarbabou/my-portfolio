@@ -56,11 +56,13 @@ git clone https://github.com/omarbabou/portfolio-mobile-version-skeleton.git
 - Twitter: [@BabouOmar3](https://twitter.com/BabouOmar3/photo)
 - LinkedIn: [idrissa-makoba](https://www.linkedin.com/in/idrissa-makoba-b5b906205/)
 
-## Authors 2
+👤 **Author 2**
 
-👤 Abdullah Riaz
+👤 Soulemanou Babanou
 
-- GitHub: [@engrabdullahriaz](https://github.com/engrabdullahriaz)
+- GitHub: [@soulemanou-software](https://github.com/soulemanou-software)
+- Twitter: [@Fastevz1](https://twitter.com/Fastevz1)
+- LinkedIn: [soulemanou kunchiefuh babanou](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou-454099196)
 
 ## 🤝 Contributing
 
