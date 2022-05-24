@@ -606,6 +606,7 @@ small {
   line-height: 24px;
   letter-spacing: 0;
   color: #344563;
+  margin-top: 8px;
 }
 .popup-container {
   background: #fff;
@@ -636,7 +637,7 @@ small {
   flex-wrap: wrap;
 }
 
-.popup-detail button .popup-img {
+.popup-img {
   width: 15px;
   height: 15px;
   margin: 0 auto;
