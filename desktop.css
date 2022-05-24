@@ -31,37 +31,6 @@
     display: none;
   }
 
-  .ul-list {
-    position: relative;
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-
-  .open-menu .ul-list {
-    transform: translateX(-100%);
-  }
-
-  .ul-list li {
-    text-align: center;
-    margin: 5px 20px;
-    display: flex;
-    align-items: center;
-  }
-
-  .ul-list li a {
-    color: #0d1420;
-    font-size: 15px;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-  }
-
   #logo {
     margin-left: 80px;
   }
