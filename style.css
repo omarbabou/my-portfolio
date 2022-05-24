@@ -40,23 +40,25 @@ nav {
   color: #6070ff;
 }
 
-.display-icon {
+.display-img {
   display: block;
-  margin-top: -7px;
+  margin-top: -16px;
+  margin-left: 40px;
+  width: 55px;
 }
 
-.no-display-icon {
+.no-display-img {
   display: none;
   width: 20px;
   margin: 1.3rem;
   margin-top: 1px;
 }
 
-.open-menu .display-icon {
+.open-menu .display-img {
   display: none;
 }
 
-.open-menu .no-display-icon {
+.open-menu .no-display-img {
   display: block;
   color: #fff;
 }
@@ -103,7 +105,7 @@ ul li {
   font-size: 25px;
   color: #6070ff;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 h1 {
