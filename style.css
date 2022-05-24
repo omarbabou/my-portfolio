@@ -20,19 +20,92 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
 }
 
-.logo {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0;
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
+  color: #6070ff;
+}
+
+.display-img {
+  display: block;
+  margin-top: -16px;
+  margin-left: 40px;
+  width: 55px;
+}
+
+.no-display-img {
+  display: none;
+  width: 20px;
+  margin: 1.3rem;
+  margin-top: 1px;
+}
+
+.open-menu .display-img {
+  display: none;
+}
+
+.open-menu .no-display-img {
+  display: block;
+  color: #fff;
+}
+
+.ul-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  padding-top: 130px;
+  padding-left: 10%;
+  padding-right: 90%;
+  height: 325.5rem;
+  background-color: #6070ff;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+.ul-list li {
+  padding-top: 1rem;
+}
+
+.ul-list li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.open-menu .ul-list {
+  transform: translateX(0);
+  z-index: 5;
+}
+
+#logo {
+  font-size: 25px;
   color: #6070ff;
   text-decoration: none;
+  font-weight: 600;
 }
 
 h1 {
@@ -51,11 +124,16 @@ h4 {
   color: #7f8cff;
 }
 
+.let {
+  margin-top: -5px;
+}
+
 ul {
   display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-top: 1px;
 }
 
 .img-card {
@@ -64,7 +142,7 @@ ul {
 
 .content {
   background: no-repeat center/100% url('./img/header-shapes mobile.svg');
-  height: 85vh;
+  height: 691px;
 }
 
 .subcontent {
@@ -73,10 +151,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-}
-
-ul li {
-  margin-right: 10px;
+  padding-bottom: 100px;
 }
 
 h2 {
@@ -85,6 +160,10 @@ h2 {
   line-height: 44px;
   letter-spacing: 0;
   color: #172b4d;
+}
+
+.stories {
+  margin-top: 25px;
 }
 
 h3 {
@@ -146,7 +225,7 @@ h5 {
 
 .canopy-second-card-section {
   background: #fff;
-  height: 610px;
+  height: 628px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -159,7 +238,7 @@ h5 {
 
 .canopy-third-card-section {
   background: #fff;
-  height: 573px;
+  height: 584px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -172,7 +251,7 @@ h5 {
 
 .canopy-fourth-card-section {
   background: #fff;
-  height: 610px;
+  height: 583px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -222,9 +301,9 @@ button {
   font-family: 'Poppins', sans-serif;
   color: #396df2;
   border: 1px solid #396df2;
-  padding: 10px 21px;
-  margin: 16px auto;
-  margin-left: 24px;
+  padding: 10px 18px;
+  margin: 13px auto;
+  margin-right: 176px;
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
@@ -414,7 +493,7 @@ textarea {
 }
 
 .x {
-  display: none;
+  display: flex;
 }
 
 small {

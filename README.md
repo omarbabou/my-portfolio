@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-![screenshot](./pic.png)
+![screenshot](./portfolio.png)
 
 > Build my skeleton version mobile portfolio using HTML/CSS only.
 
