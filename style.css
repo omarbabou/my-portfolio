@@ -618,7 +618,7 @@ small {
 }
 .popup-container {
   background: #fff;
-  height: 706px;
+  height: 641px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -653,4 +653,8 @@ small {
   display: inline-block;
   justify-content: space-between;
   align-items: center;
+}
+
+.portfolio .pop-img {
+  width: 100%;
 }
