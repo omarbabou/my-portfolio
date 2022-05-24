@@ -426,8 +426,8 @@
   .screenshot_holder {
   }
   .screenshot_holder > img {
-    width: 70%;
-    height: 80%;
+    width: 50%;
+    height:70%;
   }
   .para_text {
   }
