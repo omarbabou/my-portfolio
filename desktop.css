@@ -24,10 +24,10 @@
     text-align: center;
   }
 
-  .display-icon,
-  .no-display-icon,
-  .open-menu .display-icon,
-  .open-menu .no-display-icon {
+  .display-img,
+  .no-display-img,
+  .open-menu .display-img,
+  .open-menu .no-display-img {
     display: none;
   }
 
