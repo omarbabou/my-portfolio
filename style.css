@@ -600,6 +600,14 @@ small {
   border-radius: 8px;
 }
 
+.popup-detail h2 {
+  margin-top: 4px;
+}
+
+.popup-detail h3 {
+  margin-top: -13px;
+}
+
 .popup-detail p {
   font-size: 15px;
   font-weight: 400;
@@ -610,7 +618,7 @@ small {
 }
 .popup-container {
   background: #fff;
-  height: 794px;
+  height: 706px;
   width: 327px;
   left: 24px;
   top: 754px;

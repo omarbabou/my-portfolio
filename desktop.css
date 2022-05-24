@@ -76,6 +76,21 @@
     width: 100%;
   }
 
+  .popup-container {
+    position: fixed;
+    height: 90%;
+    width: 76%;
+    left: 0;
+    top: 0;
+    border-radius: 22px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 180px;
+  }
+
   .canopy-card-section,
   .canopy-second-card-section,
   .canopy-third-card-section,
