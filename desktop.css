@@ -423,16 +423,19 @@
   }
   .popup-detail button {
     border: none;
-    font-size: 2rem;
   }
-  .popup-detail > :nth-child(3) {
-    border: 1px solid red;
+  .popup-detail > :nth-child(2) {
+      justify-content: center;
+      padding-left: 2.2rem;
   }
   .screenshot_holder {
   }
   .screenshot_holder > img {
-    width: 50%;
-    height:70%;
+    border: 2px solid red;
+    width: 1108px;
+    height: 400px;
+    margin:0%;
+    padding:0%;
   }
   .para_text {
   }
