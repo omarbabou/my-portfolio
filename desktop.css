@@ -159,18 +159,6 @@
     border-radius: 8px;
   }
 
-  .portfolio .pop-img {
-    width: 1058px;
-    height: 686px;
-    background: #eaeaed;
-    object-fit: cover;
-    height: 488px;
-    border-radius: 8px;
-    justify-content: center;
-    display: flex;
-    align-items: start;
-  }
-
   .project-card {
     width: 544px;
     color: #344563;
@@ -430,12 +418,9 @@
   }
   .screenshot_holder {
   }
-  .screenshot_holder > img {
-    border: 2px solid red;
+ .screenshot_holder .pop-img {
     width: 1108px;
     height: 400px;
-    margin:0%;
-    padding:0%;
   }
   .para_text {
   }
