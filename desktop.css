@@ -361,19 +361,19 @@
     align-items: center;
     position: absolute;
     top: -2%;
-    filter: opacity(.9);
-    left:0%;
+    filter: opacity(0.9);
+    left: 0%;
     right: 0%;
     height: 100%;
     width: 100%;
     border: none;
   }
-  
+
   #blur_backgournd {
     position: absolute;
     background: #c1c7d0;
     height: 269rem;
-    filter:opacity(.9);
+    filter: opacity(0.9);
     width: 100%;
     top: -2%;
     left: 0;
@@ -387,19 +387,17 @@
     background-color: #fff;
     z-index: 10;
     margin-top: 20%;
-
   }
- 
-  .popup-detail{
+
+  .popup-detail {
     height: auto;
     width: 100%;
-
   }
   .popup-detail > :nth-child(1) {
     display: none;
   }
 
-  h2#heading_pop{
+  h2#heading_pop {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -411,49 +409,56 @@
     border: none;
   }
   .popup-detail > :nth-child(2) {
-      justify-content: center;
-      padding-left: 2.2rem;
+    justify-content: center;
+    padding-left: 2.2rem;
   }
   .screenshot_holder {
     display: flex;
     justify-content: center;
     align-items: center;
   }
- .screenshot_holder .pop-img {
-   width: 1035px;
-   height: 600px;
-   
-   
-
+  .screenshot_holder .pop-img {
+    max-width: 71rem;
+    max-height: 35rem;
   }
-  .footer_pop{
+  .footer_pop {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 1.5rem;
   }
- #btn_side{
+  #btn_side {
     padding-top: 1%;
     padding-left: 2rem;
     height: 100%;
     width: 35%;
   }
-  #btn_side>ul{
+  #btn_side > ul {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    position: relative;
+    left: 11.5rem;
+    height: 2.5rem;
     width: 80%;
   }
-  #btn_side>ul>li{
-    margin: .2rem;
+  #btn_side > ul > li {
+    margin: 0.2rem;
   }
-  #btn>button{
-    border:1px solid #396df2;
+  #btn {
+    border-top: 2px solid #ebecf0;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+  }
+  #btn > button {
+    border: 1px solid #396df2;
   }
   p.para_text {
     height: 100%;
-    width: 57%;
+    width: 60%;
   }
   .para_text > ul {
     border: 1px solid red;
