@@ -360,7 +360,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -2%;
+    top: 0%;
     filter: opacity(0.9);
     left: 0%;
     right: 0%;
@@ -386,7 +386,6 @@
     border-radius: 16px;
     background-color: #fff;
     z-index: 10;
-    margin-top: 20%;
   }
 
   .popup-detail {
@@ -414,57 +413,56 @@
   }
   .screenshot_holder {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
   }
   .screenshot_holder .pop-img {
-    max-width: 71rem;
+    max-width: 99%;
     max-height: 35rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .footer_pop {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content:space-between;
     padding-top: 1.5rem;
+    padding-left: 2.2rem;
   }
   #btn_side {
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
     padding-top: 1%;
-    padding-left: 2rem;
-    height: 100%;
-    width: 35%;
+    padding-right: 3rem;
+    height: 20%;
+    width: auto;
   }
   #btn_side > ul {
     display: flexbox;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 11.5rem;
-    height: 2.5rem;
-    width: 80%;
+    height: 2.9rem;
+    width: auto;
   }
   #btn_side > ul > li {
     margin: 0.2rem;
   }
   #btn {
     border-top: 2px solid #ebecf0;
-    width: 25rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid blue;
+    width:auto;
+    possion:relative;
+    display:inline-block;
   }
   #btn > button {
     border: 1px solid #396df2;
   }
   p.para_text {
     height: 100%;
-    width: 60%;
+    width: 69%;
   }
-  .para_text > ul {
-    border: 1px solid red;
-    height: 282px;
-    width: 678px;
-  }
+
   .para_text > ul > li {
   }
   .para_text > ul > li > button {
