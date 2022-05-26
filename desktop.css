@@ -26,7 +26,7 @@ nav {
   padding: 1.6rem;
 }
 
-.toggle {
+.icons {
   display: block;
   font-size: 2rem;
   cursor: pointer;
@@ -34,26 +34,26 @@ nav {
   color: #6070ff;
 }
 
-.open-btn {
+.display-open-button {
   display: block;
 }
 
-.close-btn {
+.display-close-button {
   display: none;
   width: 20px;
   margin: 1.3rem;
 }
 
-.open-menu .open-btn {
+.open-menu .display-open-button {
   display: none;
 }
 
-.open-menu .close-btn {
+.open-menu .display-close-button {
   display: block;
   color: #fff;
 }
 
-.menu {
+.lists {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,7 +71,7 @@ nav {
   transition: transform 1s;
 }
 
-.menu li {
+.lists li {
   padding-top: 1rem;
 }
 
@@ -82,13 +82,13 @@ nav {
   justify-content: center;
 }
 
-.menu li a {
+.lists li a {
   font-size: 30px;
   color: #fff;
   text-decoration: none;
 }
 
-.open-menu .menu {
+.open-menu .lists {
   transform: translateX(0);
   z-index: 5;
 }
