@@ -217,6 +217,7 @@ ul {
 .popup-content.active {
   opacity: 1;
   top: 2% !important;
+  height: 48rem;
 }
 
 .popup-h2 {
@@ -227,8 +228,8 @@ ul {
 }
 
 .popup-title img {
-  width: 306px;
-  height: 220px;
+  width: 60.2rem;
+  height: 25rem;
   margin: 12px 0;
 }
 
@@ -334,9 +335,8 @@ ul {
 
 .card img {
   transition: all 0.4s ease-out;
-  height: 243px;
-  width: 296px;
-  object-fit: contain;
+  height: 214px;
+  width: 302px;
 }
 
 .card img:hover {
@@ -843,6 +843,7 @@ small {
 
   .popup.active {
     display: inline-block;
+    /*  filter: blur(4px); */
   }
 
   .popup-content {
@@ -860,7 +861,7 @@ small {
     justify-content: space-between;
     border-radius: 8px;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: hidden;
   }
 
   .close-popup {

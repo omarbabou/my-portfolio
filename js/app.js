@@ -20,7 +20,7 @@ const works = [
   {
     id: 1,
     title: 'Tonic',
-    image: '/img/snapshootportfolio.png',
+    image: '/img/Snapshoot_Portfolio.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
@@ -32,7 +32,7 @@ const works = [
   {
     id: 2,
     title: 'Multi-Post Stories',
-    image: '/img/snapshootportfolio(3).svg',
+    image: '/img/Snapshoot_Portfolio.png',
     imageAlt: 'my second work project',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -44,7 +44,7 @@ const works = [
   {
     id: 3,
     title: 'Facebook 360',
-    image: '/img/snapshootportfolio.svg',
+    image: '/img/Snapshoot_Portfolio.png',
     imageAlt: 'my third work',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -56,7 +56,7 @@ const works = [
   {
     id: 4,
     title: 'Uber Navigation',
-    image: '/img/snapshootportfolio(1).svg',
+    image: '/img/Snapshoot_Portfolio.png',
     imageAlt: 'my fourth work',
     canopy: ['FACEBOOK ', 'Lead Developer ', '2022'],
     descript:
@@ -95,7 +95,6 @@ for (let i = 0; i < works.length; i += 1) {
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
-/* const popupCanopy = document.querySelector('.popup-canopy'); */
 const popImage = document.querySelector('.popup-title img');
 const projectDetails = document.querySelector('.window-descript');
 const language = document.querySelector('.window-languages');
