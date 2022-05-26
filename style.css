@@ -140,11 +140,6 @@ ul {
   width: 100%;
 }
 
-.content {
-  background: no-repeat center/100% url('./img/header-shapes mobile.svg');
-  height: 691px;
-}
-
 .subcontent {
   width: 90%;
   display: flex;
@@ -301,7 +296,7 @@ button {
   font-family: 'Poppins', sans-serif;
   color: #396df2;
   border: 1px solid #396df2;
-  padding: 10px 18px;
+  padding: -2px 19px;
   margin: 13px auto;
   margin-right: 176px;
   border-radius: 8px;
