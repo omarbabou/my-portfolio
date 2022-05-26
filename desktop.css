@@ -282,6 +282,10 @@ ul {
   color: white;
 }
 
+.window-btn-links img .up {
+  margin-left: 10px;
+}
+
 /* my portfolio works section */
 
 .card-container {
@@ -541,28 +545,28 @@ small {
     text-align: center;
   }
 
-  button {
-    font-size: 15px;
-    font-weight: 500, bold;
-    line-height: 24px;
-    letter-spacing: 0.03;
-    font-family: 'Poppins', sans-serif;
-    color: #396df2;
-    border: 1px solid #396df2;
-    padding: -2px 19px;
-    margin: 13px auto;
-    margin-left: 175px;
-    margin-right: 176px;
-    border-radius: 8px;
-    background-color: #fff;
-    cursor: pointer;
-    flex-wrap: wrap;
-  }
-
   footer p {
     width: 550px;
     margin-top: 15px;
   }
+
+.b {
+  font-size: 15px;
+  font-weight: 500, bold;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: -2px 19px;
+  margin: 13px auto;
+  margin-left: 175px;
+  margin-right: 176px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
 
   .display-open-button,
   .display-close-button,
