@@ -951,10 +951,4 @@ small {
       margin-right: 0.5rem;
     }
   }
-  .window-details {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
 }
