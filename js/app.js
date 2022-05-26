@@ -87,11 +87,11 @@ for (let i = 0; i < works.length; i += 1) {
                 </ul>
             </div>
             <p class="card-descript">${work.descript}</p>
-            <ul class="languages">
+             <ul class="languages">
                 <li>${work.languages[0]}</li>
                 <li>${work.languages[1]}</li>
                 <li>${work.languages[2]}</li>
-            </ul>
+            </ul> 
             <button data-popup-ref="myPopup">See project</button>
       </div>
   `;

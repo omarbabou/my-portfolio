@@ -36,6 +36,9 @@ nav {
 
 .display-open-button {
   display: block;
+  width: 55px;
+  margin-top: -16px;
+  margin-left: 40px;
 }
 
 .display-close-button {
@@ -100,7 +103,7 @@ nav {
   font-weight: 900;
 }
 
-.clm-1 {
+.content {
   background: rgb(255, 255, 255) url(./images/header-shapes-bg.svg) no-repeat;
   background-size: cover;
   padding: 24px;
@@ -108,12 +111,12 @@ nav {
   min-height: 700px;
 }
 
-.clm-pres {
+.sub-content {
   margin-top: 95px;
   color: #172b4d;
 }
 
-.clm-pres h1,
+.sub-content h1,
 h2,
 p {
   padding-top: 10px;
@@ -122,7 +125,7 @@ p {
   font-weight: 400;
 }
 
-.links {
+.social-media {
   margin-top: 10px;
 }
 
@@ -147,13 +150,13 @@ footer p {
   }
 }
 
-.links p {
+.social-media p {
   color: #7f8cff;
   text-transform: uppercase;
   font-size: 16px;
 }
 
-.clm-pres h1,
+.sub-content h1,
 h2 {
   font-weight: 700;
   font-size: 40px;
@@ -323,14 +326,14 @@ ul {
   transform: scale(1.2);
 }
 
-footer h2 {
+/* footer h2 {
   height: 56px;
   text-align: center;
   color: #fff;
   font-size: 40px;
   font-weight: 700;
   margin-top: 100px;
-}
+} */
 
 .card h2 {
   font-size: 32px;
@@ -368,9 +371,14 @@ footer h2 {
   color: #6070ff;
   padding: 2px 12px;
   margin-right: 6px;
-  background-color: #ebebff;
   border-radius: 8px;
+  background: #ebebff;
   font-size: 12px;
+}
+
+.languages .about-list {
+  margin-top: -35px;
+  background: none;
 }
 
 .canopy ul li {
@@ -437,92 +445,83 @@ button:disabled {
 
 /* -------------about me section-------------------- */
 
-.clm-3 {
-  background-color: #fff;
-  border-radius: 0 60px 0 0;
-  padding: 24px;
-  padding-bottom: 80px;
-  min-height: 700px;
+.frames-1 {
+  display: none;
 }
 
-.scroll-menu ul {
+.contact {
+  background-color: white;
+}
+
+.contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  background-image: url('./img/contact form shapes-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 5px;
+  background-color: #6070ff;
+  border-top-left-radius: 85px;
+  margin-top: 50px;
 }
 
-.scroll-menu ul li {
-  width: 327px;
-  height: 71px;
-  border-bottom: 1px solid #dfe1e6;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 12px;
+.contact h6,
+.contact p {
+  color: white;
+  text-align: center;
+}
+
+.contact h6 {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.contact p {
+  margin: 0;
+  max-width: 480px;
+  padding: 0 30px;
   font-size: 20px;
-  font-weight: 900;
-}
-
-#resume-btn {
-  width: 185px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.scroll-menu i {
-  color: #acb7c3;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-  background: #6070ff url(./images/contact_form.svg) no-repeat;
-  background-size: cover;
-  border-radius: 50px 0 0 0;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 50px;
+  justify-content: space-around;
+  min-height: 50vh;
+  align-items: center;
+  margin-top: 30px;
 }
 
-form input,
-form textarea {
-  width: 327px;
-  border-radius: 8px;
+input,
+textarea {
+  font: inherit;
+  width: 300px;
+  border-radius: 0.5rem;
+  padding: 10px;
   outline: none;
-  background-color: #fff;
   border: none;
-  margin: 10px auto;
-  padding: 18px 16px;
 }
 
-#name,
-#email {
-  height: 48px;
+form > * {
+  margin-bottom: 10px;
 }
 
-#textArea {
-  height: 170px;
+textarea {
+  height: 9rem;
 }
 
-#email-message {
-  font-size: 13px;
-  margin: 0.7rem;
+.x {
+  display: flex;
 }
 
-#sub-btn {
-  margin-top: 18px;
+small {
+  color: red;
 }
 
-#sub-btn:hover {
-  border: 1px solid #fff;
-}
+
 
 @media screen and (min-width: 992px) {
   body {
@@ -554,14 +553,14 @@ form textarea {
     margin-top: 15px;
   }
 
-  .open-btn,
-  .close-btn,
-  .open-menu .open-btn,
-  .open-menu .close-btn {
+  .display-open-button,
+  .display-close-button,
+  .open-menu .display-open-button,
+  .open-menu .display-close-button {
     display: none;
   }
 
-  .menu {
+  .lists {
     position: relative;
     background-color: transparent;
     display: flex;
@@ -573,18 +572,18 @@ form textarea {
     height: 100%;
   }
 
-  .open-menu .menu {
+  .open-menu .lists {
     transform: translateX(-100%);
   }
 
-  .menu li {
+  .lists li {
     text-align: center;
     margin: 5px 20px;
     display: flex;
     align-items: center;
   }
 
-  .menu li a {
+  .lists li a {
     color: #0d1420;
     font-size: 15px;
     font-weight: 700;
@@ -592,13 +591,13 @@ form textarea {
     text-align: center;
   }
 
-  .menu a:hover {
+  .lists a:hover {
     color: #4456fa;
   }
 
   /* ------------------first section ---------------- */
 
-  .clm-1 {
+  .content {
     background-image: url(./images/Header_bg.svg);
     background-size: contain;
     padding-left: 210px;
@@ -606,7 +605,7 @@ form textarea {
     min-height: 600px;
   }
 
-  .clm-pres h1,
+  .sub-content h1,
   h2 {
     font-size: 48px;
   }
@@ -654,6 +653,155 @@ form textarea {
   .card-2 img,
   .card-4 img {
     order: 2;
+  }
+
+  /* ---------------------ABOUT ME SECTION------------------ */
+
+  #resume-btn {
+    width: 185px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .frames {
+    display: none;
+  }
+
+  .about button {
+    margin: 20px 0 20px 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .languages ul p {
+    margin: -21px;
+    margin-top: 41px;
+    margin-left: -34px;
+    font-size: 18px;
+    color: #344563;
+    font-weight: 500, bold;
+  }
+
+  .languages i {
+    margin-left: 481px;
+    margin-top: -800px;
+    margin-bottom: 30px;
+    color: #505f79;
+  }
+
+  .frameworks ul p {
+    margin: -37px;
+    margin-top: 22px;
+    margin-left: -18px;
+    font-size: 18px;
+    color: #344563;
+    font-weight: 500, bold;
+  }
+
+  .frameworks i {
+    margin-left: 486px;
+    margin-top: 20px;
+    color: #505f79;
+  }
+
+  .skills-2 ul p {
+    margin: -37px;
+    margin-top: 22px;
+    margin-left: -18px;
+    font-size: 18px;
+    color: #344563;
+    font-weight: 500, bold;
+  }
+
+  .skills-2 i {
+    margin-left: 486px;
+    margin-top: 20px;
+    color: #505f79;
+  }
+
+  .separator {
+    width: 540px;
+    color: #dfe1e6;
+  }
+
+  .frames-1 {
+    display: flex;
+    margin-left: -12px;
+  }
+
+.about {
+  background: white;
+  border-top-right-radius: 80px;
+  height: 34rem;
+}
+ 
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .about-me {
+    width: 53%;
+    margin-left: 2%;
+  }
+
+  .tooling {
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+
+  .abt-myself {
+    height: 670px;
+    border-radius: 0 90px 0 0;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+
+  .abt-section {
+    width: 390px;
+  }
+
+  .let-connect h4 {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  /* ------------------------------CONTACT------------------------ */
+
+  .contact-container {
+    background: no-repeat center/80%, url('./img/contact-desktop.svg');
+    background-color: #6070ff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 50vh;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  input,
+  textarea {
+    font: inherit;
+    width: 310px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: none;
+  }
+
+  form > * {
+    margin-bottom: 10px;
   }
 
   /* PopUp Window */
@@ -759,7 +907,6 @@ form textarea {
     margin: 0;
     margin-right: 6px;
     margin-bottom: 5px;
-    background-color: #ebebff;
     border-radius: 8px;
     font-size: 12px;
     margin-top: 5px;
@@ -781,69 +928,4 @@ form textarea {
     margin-right: 0.5rem;
   }
 
-  /* ---------------------ABOUT ME SECTION------------------ */
-
-  .clm-3 {
-    height: 670px;
-    border-radius: 0 90px 0 0;
-    padding: 0 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .abt-clm {
-    width: 390px;
-  }
-
-  .scroll-menu {
-    flex: 1;
-    margin-left: 35px;
-  }
-
-  .scroll-menu ul li {
-    width: 450px;
-    height: 80px;
-    border-bottom: 1px solid #dfe1e6;
-    padding: 0 12px;
-    font-size: 16px;
-    font-weight: 900;
-  }
-
-  .clm-pres h1,
-  .clm-pres h2 {
-    font-size: 40px;
-    line-height: 35px;
-  }
-
-  .clm-pres p {
-    font-size: 14px;
-    margin-top: 10px;
-  }
-
-  /* ------------------------------FOOTER------------------------ */
-
-  footer {
-    background: #6070ff url(./images/background.svg) no-repeat;
-    background-size: 100%;
-    justify-content: center;
-  }
-
-  form input,
-  form textarea {
-    width: 450px;
-    border-radius: 2px;
-    margin: 27px auto;
-  }
-
-  #sub-btn {
-    margin: 0 auto;
-    width:auto;
-  }
-
-  #email-message {
-    font-size: 14px;
-    text-align: center;
-  }
 }
