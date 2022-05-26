@@ -228,7 +228,7 @@ ul {
 }
 
 .popup-title img {
-  width: 60.2rem;
+  width: 99.5%;
   height: 25rem;
   margin: 12px 0;
 }
@@ -951,4 +951,20 @@ small {
       margin-right: 0.5rem;
     }
   }
+  .window-details{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: -8%;
+    margin: 0%;
+  }
+  .window-descript{
+    position: relative;
+    top: -18%;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+
 }
