@@ -704,7 +704,7 @@ form textarea {
     margin: 0;
     padding: 0;
   }
-<<<<<<< HEAD
+
   .popup-container {
     display: flex;
     justify-content: center;
@@ -718,12 +718,12 @@ form textarea {
     width: 100%;
     border: none;
     visibility: hidden;
-=======
+
 
   .popup-content.active {
     opacity: 1;
     top: 10%;
->>>>>>> 5a55dee1b88b05a98b2b7c5e17be8e1ac89149f4
+
   }
 
   .popup-title img {
