@@ -367,6 +367,7 @@
     height: 100%;
     width: 100%;
     border: none;
+    visibility: hidden;
   }
 
   #blur_backgournd {
