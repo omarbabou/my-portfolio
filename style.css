@@ -332,6 +332,22 @@ button:hover {
   padding-right: 1rem;
 }
 
+.popup-detail button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 7px 16px;
+  margin: 16px auto;
+  margin-right: 5px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
 .project-card button:hover {
   color: #fff;
   background: #396df2;
@@ -393,6 +409,20 @@ button:hover {
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.popup-detail li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03;
+  color: #6070ff;
+  background: #ebebff;
+  margin-right: 5px;
+  padding: 7px;
+  list-style: none;
+  border-radius: 8px;
 }
 
 .navbar li:hover {
@@ -517,6 +547,15 @@ small {
   margin-left: 10px;
 }
 
+.popup-detail p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #344563;
+  margin-top: 8px;
+}
+
 .languages ul p {
   margin: -35px;
   margin-top: 10px;
@@ -584,20 +623,6 @@ small {
   display: none;
 }
 
-.popup-detail li {
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.03;
-  color: #6070ff;
-  background: #ebebff;
-  margin-right: 5px;
-  padding: 7px;
-  list-style: none;
-  border-radius: 8px;
-}
-
 .popup-detail h2 {
   margin-top: 4px;
 }
@@ -606,14 +631,6 @@ small {
   margin-top: -13px;
 }
 
-.popup-detail p {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  color: #344563;
-  margin-top: 8px;
-}
 .popup-container {
   background: #fff;
   height: 641px;
@@ -630,22 +647,6 @@ small {
 #resume-btn {
   width: 185px;
   font-size: 18px;
-}
-
-.popup-detail button {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03;
-  color: #396df2;
-  border: 1px solid #396df2;
-  padding: 7px 16px;
-  margin: 16px auto;
-  margin-right: 5px;
-  border-radius: 8px;
-  background: #fff;
-  cursor: pointer;
-  flex-wrap: wrap;
 }
 
 .popup-img {
