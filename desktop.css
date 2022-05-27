@@ -229,7 +229,7 @@ ul {
 
 .popup-title img {
   width: 99.5%;
-  height: 25rem;
+  height: 75%;
   margin: 12px 0;
 }
 
@@ -246,12 +246,17 @@ ul {
   right: 20px;
 }
 
+.aside-clm {
+  margin-top: -3%;
+}
+
 .window-descript {
   width: 100%;
   color: #172b4d;
   padding: 30px 10px;
   overflow: hidden;
   font-size: 16px;
+  margin-top: 28px;
 }
 
 .window-languages {
@@ -264,7 +269,7 @@ ul {
 
 .window-languages li {
   color: #6070ff;
-  padding: 2px 12px;
+  padding: 3px 12px;
   margin: 0;
   margin-right: 6px;
   margin-bottom: 5px;
@@ -277,6 +282,7 @@ ul {
 .window-btn-links {
   display: flex;
   justify-content: space-between;
+  margin-top: -5%;
 }
 
 .window-btn-links img {
@@ -950,5 +956,22 @@ small {
       text-align: center;
       margin-right: 0.5rem;
     }
+  }
+
+  .window-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -8%;
+    margin: 0%;
+  }
+
+  .window-descript {
+    position: relative;
+    top: -18%;
+    margin-top: 0%;
+    padding-top: 0%;
   }
 }
