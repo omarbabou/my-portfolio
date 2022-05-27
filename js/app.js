@@ -66,7 +66,7 @@ const works = [
     id: 4,
     title: 'Uber Navigation',
     image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/Snapshoot_Portfolio.png',
+    popupTitleImage: '/img/snapshootportfolio(3).svg',
     liveIconImage: '/img/popup1.png',
     sourceIconImage: '/img/github1.png',
     imageAlt: 'my fourth work',
@@ -115,7 +115,10 @@ for (let i = 0; i < works.length; i += 1) {
             <li>2015</li>
           </ul>
         </div>
-        <img src="${work.image}" alt="${work.imageAlt}" />
+        <div class="img-1">
+         <img src="${work.image}" alt="${work.imageAlt}" />
+        </div>
+       
       </div>
       <div class="window-details">
         <p class="window-descript">
@@ -132,12 +135,10 @@ for (let i = 0; i < works.length; i += 1) {
           </ul>
           <div class="window-btn-links">
             <a class="btn-live link" target="_blank" href="#"
-              >See live <img src="${work.liveIconImage}" class="up" alt="popup"
-            /></a>
+              >See live  <i class="fas fa-rss"></i></a>
             <a class="btn-code link" target="_blank" href="#"
               >See source
-              <img src="${work.sourceIconImage}" class="up" alt="github"
-            /></a>
+              <i class="fab fa-github"></a>
           </div>
         </div>
       </div>
