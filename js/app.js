@@ -174,3 +174,23 @@ function populateStorage() {
   const nameField = document.querySelector('#name').value;
   const emailField = document.querySelector('#mail').value;
   const messageField = document.querySelector('textarea').value;
+
+  const formInputs = {
+    name: nameField,
+    email: emailField,
+    msg: messageField,
+  };
+  localStorage.setItem('formInputsObj', JSON.stringify(formInputs));
+}
+
+const parsedFormInputs = JSON.parse(localStorage.getItem('formInputsObj'));
+
+if (parsedFormInputs) {
+  Fname.value = parsedFormInputs.name;
+  email.value = parsedFormInputs.email;
+  message.value = parsedFormInputs.msg;
+}
+
+form.addEventListener('input', () => {
+  populateStorage();
+});
