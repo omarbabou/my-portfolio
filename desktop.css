@@ -786,7 +786,7 @@ small {
   .abt-myself {
     height: 670px;
     border-radius: 0 90px 0 0;
-    padding: 0 120px;
+    padding: 0 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
