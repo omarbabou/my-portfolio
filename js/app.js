@@ -90,6 +90,47 @@ for (let i = 0; i < works.length; i += 1) {
             </ul> 
             <button data-popup-ref="myPopup">See project</button>
       </div>
+
+      <section class="popup" data-popup-id="myPopup">
+      <div class="popup-content">
+      <div class="title popup-title">
+        <h2 class="popup-h2">Tonic</h2>
+        <i class="fas fa-times close-popup" data-dismiss-popup></i>
+        <div class="canopy popup-canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <img src="${work.image}" alt="${work.imageAlt}" />
+      </div>
+      <div class="window-details">
+        <p class="window-descript">
+         ${work.descript}
+        </p>
+        <div class="aside-clm">
+          <ul class="window-languages">
+            <li>${work.languages[0]}</li>
+            <li>${work.languages[1]}</li>
+            <li>${work.languages[2]}</li>
+            <li>${work.languages[3]}</li>
+            <li>${work.languages[4]}</li>
+            <li>${work.languages[5]}</li>
+          </ul>
+          <div class="window-btn-links">
+            <a class="btn-live link" target="_blank" href="#"
+              >See live <img src="${work.liveIconImage}" class="up" alt="popup"
+            /></a>
+            <a class="btn-code link" target="_blank" href="#"
+              >See source
+              <img src="${work.sourceIconImage}" class="up" alt="github"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
   `;
 }
 
