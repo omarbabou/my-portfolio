@@ -10,11 +10,9 @@ navigation.addEventListener('click', () => {
 
 const menuLink = document.querySelectorAll('.ul-link');
 
-menuLink.forEach((e) =>
-  e.addEventListener('click', () => {
-    body.classList.remove('open-menu');
-  })
-);
+menuLink.forEach((e) => e.addEventListener('click', () => {
+  body.classList.remove('open-menu');
+}));
 
 //  -----------------POPUP-WINDOW-------------
 
@@ -108,8 +106,9 @@ popupsBtn.forEach((btn) => {
     const popupId = btn.getAttribute('data-popup-ref');
     const id = Number(btn.parentNode.parentNode.id.split('-')[1]);
     const popup = document.querySelector(`[data-popup-id='${popupId}']`);
-    const { title, image, imageAlt, descript, languages, sourcebtn, liveBtn } =
-      works.find((work) => work.id === id);
+    const {
+      title, image, imageAlt, descript, languages, sourcebtn, liveBtn,
+    } = works.find((work) => work.id === id);
 
     if (popup !== undefined && popup !== null) {
       const popupContent = popup.querySelector('.popup-content');
