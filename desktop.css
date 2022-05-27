@@ -217,7 +217,7 @@ ul {
 .popup-content.active {
   opacity: 1;
   top: 2% !important;
-  height: 48rem;
+  height: auto;
 }
 
 .popup-h2 {
@@ -250,13 +250,14 @@ ul {
   margin-top: -3%;
 }
 
+
 .window-descript {
   width: 100%;
   color: #172b4d;
-  padding: 30px 10px;
+  padding: 0px 0px;
   overflow: hidden;
   font-size: 16px;
-  margin-top: 28px;
+  margin-top: 0px;
 }
 
 .window-languages {
@@ -965,13 +966,19 @@ small {
     align-items: center;
     position: relative;
     top: -8%;
-    margin: 0%;
+    margin-top: 0%;
   }
 
   .window-descript {
     position: relative;
     top: -18%;
-    margin-top: 0%;
+    margin-top: -6%;
     padding-top: 0%;
   }
+  .aside-clm{
+    position: relative;
+    top:0;
+    margin-top: 0%;
+    padding-top: 0%;
+    height: auto
 }
