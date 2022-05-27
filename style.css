@@ -140,11 +140,6 @@ ul {
   width: 100%;
 }
 
-.content {
-  background: no-repeat center/100% url('./img/header-shapes mobile.svg');
-  height: 691px;
-}
-
 .subcontent {
   width: 90%;
   display: flex;
@@ -301,7 +296,7 @@ button {
   font-family: 'Poppins', sans-serif;
   color: #396df2;
   border: 1px solid #396df2;
-  padding: 10px 18px;
+  padding: -2px 19px;
   margin: 13px auto;
   margin-right: 176px;
   border-radius: 8px;
@@ -332,9 +327,25 @@ button:hover {
 }
 
 .about button {
-  margin: 20px 0 20px 0;
-  padding-left: 2.2rem;
-  padding-right: 2.2rem;
+  margin: 0 0 20px 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.popup-detail button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 7px 16px;
+  margin: 16px auto;
+  margin-right: 5px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .project-card button:hover {
@@ -358,6 +369,7 @@ button:hover {
 .about {
   background: white;
   border-top-right-radius: 80px;
+  height: 60rem;
 }
 
 .about-container {
@@ -369,7 +381,7 @@ button:hover {
 }
 
 .about h2 {
-  margin-top: 100px;
+  margin-top: 56px;
 }
 
 .about li {
@@ -397,6 +409,20 @@ button:hover {
   border-radius: 8px;
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.popup-detail li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03;
+  color: #6070ff;
+  background: #ebebff;
+  margin-right: 5px;
+  padding: 7px;
+  list-style: none;
+  border-radius: 8px;
 }
 
 .navbar li:hover {
@@ -521,10 +547,19 @@ small {
   margin-left: 10px;
 }
 
+.popup-detail p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #344563;
+  margin-top: 8px;
+}
+
 .languages ul p {
   margin: -35px;
   margin-top: 10px;
-  margin-left: -7px;
+  margin-left: -19px;
   font-size: 15px;
   color: #000;
 }
@@ -545,6 +580,7 @@ small {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
+  margin-top: -26px;
 }
 
 .frameworks ul p {
@@ -566,6 +602,7 @@ small {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 10px;
+  margin-top: -26px;
 }
 
 .skills-2 ul p {
@@ -584,4 +621,44 @@ small {
 
 .frames-1 {
   display: none;
+}
+
+.popup-detail h2 {
+  margin-top: 4px;
+}
+
+.popup-detail h3 {
+  margin-top: -13px;
+}
+
+.popup-container {
+  background: #fff;
+  height: 641px;
+  width: 327px;
+  left: 24px;
+  top: 754px;
+  border-radius: 16px;
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #dfe1e6;
+  margin: 15px auto;
+}
+
+#resume-btn {
+  width: 185px;
+  font-size: 18px;
+}
+
+.popup-img {
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+  margin-left: 10px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screenshot_holder .pop-img {
+  width: 100%;
 }
