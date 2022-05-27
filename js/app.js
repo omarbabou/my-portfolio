@@ -36,7 +36,7 @@ const works = [
     imageAlt: 'my second work project',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
     sourcebtn: '#',
     liveBtn: '#',
