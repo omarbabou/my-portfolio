@@ -166,3 +166,11 @@ form.addEventListener('submit', (e) => {
     email.submit();
   }
 });
+
+const Fname = document.querySelector('#name');
+const message = document.querySelector('textarea');
+
+function populateStorage() {
+  const nameField = document.querySelector('#name').value;
+  const emailField = document.querySelector('#mail').value;
+  const messageField = document.querySelector('textarea').value;
