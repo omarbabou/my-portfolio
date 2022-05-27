@@ -147,30 +147,6 @@ popupsBtn.forEach((btn) => {
 
 //  ----------------- FORM VALIDATION -----------------
 
-/* const form = document.querySelector('#form');
-const userMail = document.querySelector("input[name='email']");
-const emailMsg = document.getElementById('email-message');
-
-const isValidEmail = (email) => {
-  if (email !== email.toLowerCase()) {
-    emailMsg.innerHTML = 'Enter a valid email in lowercase!';
-    emailMsg.style.color = 'orange';
-    userMail.style.border = '1px solid orange';
-    return false;
-  }
-  return true;
-};
-
-function valideForm(e) {
-  e.preventDefault();
-  const email = userMail.value;
-  if (isValidEmail(email)) {
-    form.submit();
-  }
-}
-
-form.addEventListener('submit', valideForm); */
-
 function isLower(str) {
   return /[a-z]/.test(str) && !/[A-Z]/.test(str);
 }
