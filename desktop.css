@@ -873,7 +873,7 @@ small {
 
   .close-popup {
     font-size: 24px;
-    color: rgb(131, 131, 131);
+    color: rgba(131, 131, 131);
     position: absolute;
     top: 20px;
     right: 30px;
