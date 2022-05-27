@@ -21,6 +21,8 @@ const works = [
     id: 1,
     title: 'Tonic',
     image: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
@@ -33,6 +35,8 @@ const works = [
     id: 2,
     title: 'Multi-Post Stories',
     image: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my second work project',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -45,6 +49,8 @@ const works = [
     id: 3,
     title: 'Facebook 360',
     image: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my third work',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -57,6 +63,8 @@ const works = [
     id: 4,
     title: 'Uber Navigation',
     image: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my fourth work',
     canopy: ['FACEBOOK ', 'Lead Developer ', '2022'],
     descript:
