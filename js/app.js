@@ -145,7 +145,6 @@ popupsBtn.forEach((btn) => {
   });
 });
 
-
 function isLower(str) {
   return /[a-z]/.test(str) && !/[A-Z]/.test(str);
 }
