@@ -135,10 +135,10 @@ for (let i = 0; i < works.length; i += 1) {
           </ul>
           <div class="window-btn-links">
             <a class="btn-live link" target="_blank" href="#"
-              >See live  <i class="fas fa-rss"></i></a>
+              >See live  &nbsp; <i class="fas fa-rss"></i></a>
             <a class="btn-code link" target="_blank" href="#"
-              >See source
-              <i class="fab fa-github"></a>
+              >See source &nbsp; 
+              <i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ for (let i = 0; i < works.length; i += 1) {
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
-const popImage = document.querySelector('.popup-title img');
+const popImage = document.querySelector('.popup-title .img-1');
 const projectDetails = document.querySelector('.window-descript');
 const language = document.querySelector('.window-languages');
 const liveLink = document.querySelector('.btn-live');

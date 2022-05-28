@@ -227,11 +227,17 @@ ul {
   padding: 0;
 }
 
-.popup-title .img-1 {
+/* .img-1 {
+  object-fit: contain;
   width: 99.5%;
-  height: 75%;
   margin: 12px 0;
+  transition: none;
 }
+
+.img-1 img {
+  height: 10rem;
+  transition: normal;
+} */
 
 .popup-canopy {
   margin: 0;
@@ -898,7 +904,7 @@ small {
   .window-descript {
     position: relative;
     top: -18%;
-    margin-top: -6%;
+    margin-top: -10%;
     padding-top: 0%;
   }
 
@@ -982,5 +988,22 @@ small {
     margin-top: 0%;
     padding-top: 0%;
     height: auto;
+  }
+
+  .img-1 {
+    height: 50%;
+  }
+
+  .img-1 img {
+    position: relative;
+    width: 100%;
+    margin: 12px 0;
+    height: auto;
+  }
+
+  .img-1 img:hover {
+    height: auto;
+    width: 100%;
+    transform: none;
   }
 }
