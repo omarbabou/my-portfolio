@@ -908,6 +908,23 @@ small {
     padding-top: 0%;
   }
 
+  .img-1 {
+    height: 50%;
+  }
+
+  .img-1 img {
+    position: relative;
+    width: 100%;
+    margin: 12px 0;
+    height: auto;
+  }
+
+  .img-1 img:hover {
+    height: auto;
+    width: 100%;
+    transform: none;
+  }
+
   .popup-container {
     display: flex;
     justify-content: center;
@@ -988,22 +1005,5 @@ small {
     margin-top: 0%;
     padding-top: 0%;
     height: auto;
-  }
-
-  .img-1 {
-    height: 50%;
-  }
-
-  .img-1 img {
-    position: relative;
-    width: 100%;
-    margin: 12px 0;
-    height: auto;
-  }
-
-  .img-1 img:hover {
-    height: auto;
-    width: 100%;
-    transform: none;
   }
 }
