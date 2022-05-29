@@ -198,3 +198,53 @@ popupsBtn.forEach((btn) => {
     }
   });
 });
+
+//  ----------------- FORM VALIDATION -----------------
+
+function isLower(str) {
+  return /[a-z]/.test(str) && !/[A-Z]/.test(str);
+}
+
+const form = document.querySelector('form');
+const email = document.querySelector('#mail');
+const errorMessageField = document.querySelector('small');
+
+form.addEventListener('submit', (e) => {
+  if (!isLower(email.value)) {
+    e.preventDefault();
+    errorMessageField.textContent = 'Please, make your email lowercase.';
+    email.style.border = '2px solid green';
+  } else {
+    errorMessageField.textContent = '';
+    email.style.border = '2px solid black';
+    email.submit();
+  }
+});
+
+const Fname = document.querySelector('#name');
+const message = document.querySelector('textarea');
+
+function populateStorage() {
+  const nameField = document.querySelector('#name').value;
+  const emailField = document.querySelector('#mail').value;
+  const messageField = document.querySelector('textarea').value;
+
+  const formInputs = {
+    name: nameField,
+    email: emailField,
+    msg: messageField,
+  };
+  localStorage.setItem('formInputsObj', JSON.stringify(formInputs));
+}
+
+const parsedFormInputs = JSON.parse(localStorage.getItem('formInputsObj'));
+
+if (parsedFormInputs) {
+  Fname.value = parsedFormInputs.name;
+  email.value = parsedFormInputs.email;
+  message.value = parsedFormInputs.msg;
+}
+
+form.addEventListener('input', () => {
+  populateStorage();
+});
