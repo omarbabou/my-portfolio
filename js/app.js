@@ -21,6 +21,9 @@ const works = [
     id: 1,
     title: 'Tonic',
     image: '/img/Snapshoot_Portfolio.png',
+    popupTitleImage: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
@@ -33,6 +36,9 @@ const works = [
     id: 2,
     title: 'Multi-Post Stories',
     image: '/img/Snapshoot_Portfolio.png',
+    popupTitleImage: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my second work project',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -45,6 +51,9 @@ const works = [
     id: 3,
     title: 'Facebook 360',
     image: '/img/Snapshoot_Portfolio.png',
+    popupTitleImage: '/img/Snapshoot_Portfolio.png',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my third work',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
@@ -57,6 +66,9 @@ const works = [
     id: 4,
     title: 'Uber Navigation',
     image: '/img/Snapshoot_Portfolio.png',
+    popupTitleImage: '/img/snapshootportfolio(3).svg',
+    liveIconImage: '/img/popup1.png',
+    sourceIconImage: '/img/github1.png',
     imageAlt: 'my fourth work',
     canopy: ['FACEBOOK ', 'Lead Developer ', '2022'],
     descript:
@@ -90,12 +102,54 @@ for (let i = 0; i < works.length; i += 1) {
             </ul> 
             <button data-popup-ref="myPopup">See project</button>
       </div>
+
+      <section class="popup" data-popup-id="myPopup">
+      <div class="popup-content">
+      <div class="title popup-title">
+        <h2 class="popup-h2">Tonic</h2>
+        <i class="fas fa-times close-popup" data-dismiss-popup></i>
+        <div class="canopy popup-canopy">
+          <h4>Canopy</h4>
+          <ul>
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+        <div class="img-1">
+         <img src="${work.image}" alt="${work.imageAlt}" />
+        </div>
+       
+      </div>
+      <div class="window-details">
+        <p class="window-descript">
+         ${work.descript}
+        </p>
+        <div class="aside-clm">
+          <ul class="window-languages">
+            <li>${work.languages[0]}</li>
+            <li>${work.languages[1]}</li>
+            <li>${work.languages[2]}</li>
+            <li>${work.languages[3]}</li>
+            <li>${work.languages[4]}</li>
+            <li>${work.languages[5]}</li>
+          </ul>
+          <div class="window-btn-links">
+            <a class="btn-live link" target="_blank" href="#"
+              >See live  &nbsp; <i class="fas fa-rss"></i></a>
+            <a class="btn-code link" target="_blank" href="#"
+              >See source &nbsp; 
+              <i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
   `;
 }
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
-const popImage = document.querySelector('.popup-title img');
+const popImage = document.querySelector('.popup-title .img-1');
 const projectDetails = document.querySelector('.window-descript');
 const language = document.querySelector('.window-languages');
 const liveLink = document.querySelector('.btn-live');
