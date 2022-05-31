@@ -821,7 +821,7 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 50vh;
+    min-height: 50%;
     align-items: center;
     margin-top: 30px;
   }

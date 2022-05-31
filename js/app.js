@@ -199,8 +199,6 @@ popupsBtn.forEach((btn) => {
   });
 });
 
-//  ----------------- FORM VALIDATION -----------------
-
 function isLower(str) {
   return /[a-z]/.test(str) && !/[A-Z]/.test(str);
 }
