@@ -20,17 +20,13 @@ const works = [
   {
     id: 1,
     title: 'BookStore',
-    image: '/img/bkStore.png',
-    popupTitleImage: '/img/bkStore.png',
-    liveIconImage: '/img/popup1.png',
-    sourceIconImage: '/img/github1.png',
+    image: '/img/store.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
-    descript:
-      'The Bookstore-app is web applicaton build with react/redux that helps users to keep track to their local biblio(books). User can add books to the store and the API updating as well as he is progressing; User can aslo delete book form the API and the store',
+    descript: 'The Bookstore-app is web applicaton build with react/redux that helps users to keep track to their local biblio(books). User can add books to the store and the API updating as well as he is progressing; User can aslo delete book form the API and the store',
     languages: ['react', 'redux', 'Api'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    sourcebtn: 'https://github.com/omarbabou/bookstore-app',
+    liveBtn: 'https://idriss-omar-bookstore-app.netlify.app/',
   },
   {
     id: 2,
