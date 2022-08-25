@@ -19,16 +19,16 @@ menuLink.forEach((e) => e.addEventListener('click', () => {
 const works = [
   {
     id: 1,
-    title: 'Tonic',
-    image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/Snapshoot_Portfolio.png',
+    title: 'BookStore',
+    image: '/img/bkStore.png',
+    popupTitleImage: '/img/bkStore.png',
     liveIconImage: '/img/popup1.png',
     sourceIconImage: '/img/github1.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
+      'The Bookstore-app is web applicaton build with react/redux that helps users to keep track to their local biblio(books). User can add books to the store and the API updating as well as he is progressing; User can aslo delete book form the API and the store',
+    languages: ['react', 'redux', 'Api'],
     sourcebtn: '#',
     liveBtn: '#',
   },
