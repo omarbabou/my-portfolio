@@ -864,7 +864,7 @@ small {
   transform: translateX(-50%);
   height: 570px;
   min-width: 520px;
-  width: 61%;
+  width: 65%;
   background-color: #fff;
   transition: top 250ms linear, opacity 200ms linear;
   display: flex;
@@ -892,13 +892,14 @@ small {
 .popup-content.active {
   opacity: 1;
   top: 10%;
+  height: 570px;
 }
 
 .popup-title img {
   width: 100%;
   height: 500px;
   margin: 15px auto;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .window-details {
