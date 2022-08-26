@@ -19,7 +19,7 @@
 
 ## See Projet
 
-[](https://idrissa-omar-portfolio.netlify.app/)
+[my-portfolio](https://idrissa-omar-portfolio.netlify.app/)
 
 ## Getting Started
 
