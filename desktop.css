@@ -217,7 +217,6 @@ ul {
 .popup-content.active {
   opacity: 1;
   top: 2% !important;
-  height: auto;
 }
 
 .popup-h2 {
@@ -227,17 +226,11 @@ ul {
   padding: 0;
 }
 
-/* .img-1 {
-  object-fit: contain;
-  width: 99.5%;
+.popup-title img {
+  width: 306px;
+  height: 220px;
   margin: 12px 0;
-  transition: none;
 }
-
-.img-1 img {
-  height: 10rem;
-  transition: normal;
-} */
 
 .popup-canopy {
   margin: 0;
@@ -252,17 +245,12 @@ ul {
   right: 20px;
 }
 
-.aside-clm {
-  margin-top: -3%;
-}
-
 .window-descript {
   width: 100%;
   color: #172b4d;
-  padding: 0 0;
+  padding: 30px 10px;
   overflow: hidden;
   font-size: 16px;
-  margin-top: 0;
 }
 
 .window-languages {
@@ -275,7 +263,7 @@ ul {
 
 .window-languages li {
   color: #6070ff;
-  padding: 3px 12px;
+  padding: 2px 12px;
   margin: 0;
   margin-right: 6px;
   margin-bottom: 5px;
@@ -288,15 +276,10 @@ ul {
 .window-btn-links {
   display: flex;
   justify-content: space-between;
-  margin-top: -5%;
 }
 
 .window-btn-links img {
   color: white;
-}
-
-.window-btn-links img .up {
-  margin-left: 10px;
 }
 
 /* my portfolio works section */
