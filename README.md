@@ -1,27 +1,25 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) `html` `css` `Javascript`
 
 ## Portfolio-mobile-version-skeleton
 
-> Build my skeleton version mobile portfolio using HTML/CSS only.
+> Build my skeleton version mobile portfolio using HTML/CSS and JavaScript.
 
 ## Screenshots
 
-![screenshot](./portfolio.png)
+![screenshot](./img/dport.png)
+![screenshot](./img/pmob-1.png)
+![screenshot](./img/pmob.png)
 
-> Build my skeleton version mobile portfolio using HTML/CSS only.
-
-# Using flexbox, grid, ...
-
-![screenshot](./imgg.png)
 
 ## Built With
 
 - HTML/CSS
+- JavaScript
 - Linters
 
-## Live Demo (if available)
+## See Projet
 
-[Live Demo Link](https://omarbabou.github.io/)
+[](https://idrissa-omar-portfolio.netlify.app/)
 
 ## Getting Started
 
@@ -29,24 +27,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-1. You should have basic knowledge of HTML, CSS, Grid, Flexbox, Github, Git, Linters and Figma.
+1. You should have basic knowledge of `HTML`, `CSS`, `Grid`, `Flexbox`, `Github`, `Git`, `Linters` and `Figma`.
 2. You must install live server in your source-code editor.
 3. Create the index.html file and then open it in the browser via live server.
 
 ### Setup
 
-1. Linters
+1. `Linters`
 
 ### Install
 
-1. Git
-1. Node
+1. `Git`
+1. `Node`
 
 ### Usage
 
 clone this repository:
 
-git clone https://github.com/omarbabou/portfolio-mobile-version-skeleton.git
+git clone `https://github.com/omarbabou/portfolio-mobile-version-skeleton.git`
 
 ## Author 1
 
@@ -84,10 +82,3 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./MIT.md) licensed.
 
-# Personal-Portfolio
-
-Build my skeleton version mobile portfolio using HTML/CSS.
-
-# portfolio-mobile-version-skeleton
-
-Build my skeleton version mobile portfolio using HTML/CSS only.
