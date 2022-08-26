@@ -19,63 +19,47 @@ menuLink.forEach((e) => e.addEventListener('click', () => {
 const works = [
   {
     id: 1,
-    title: 'Tonic',
-    image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/Snapshoot_Portfolio.png',
-    liveIconImage: '/img/popup1.png',
-    sourceIconImage: '/img/github1.png',
+    title: 'BookStore',
+    image: '/img/bkstore.png',
     imageAlt: 'Awesome book',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
-    descript:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    descript: 'The Bookstore-app is web applicaton build with react/redux that helps users to keep track to their local biblio(books). User can add books to the store and the API updating as well as he is progressing; User can aslo delete book form the API and the store.',
+    languages: ['react', 'redux', 'Api'],
+    sourcebtn: 'https://github.com/omarbabou/bookstore-app',
+    liveBtn: 'https://idriss-omar-bookstore-app.netlify.app/',
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
-    image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/Snapshoot_Portfolio.png',
-    liveIconImage: '/img/popup1.png',
-    sourceIconImage: '/img/github1.png',
-    imageAlt: 'my second work project',
-    canopy: ['FACEBOOK', 'Back End Dev', '2015'],
-    descript:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    title: 'Tasty Food',
+    image: '/img/food.png',
+    imageAlt: 'my second work',
+    canopy: ['CANOPY', 'Back End Dev', '2022'],
+    descript: 'Capstone project done in Microverse for ending Module1. In this capstone, different functionalities are implemented by using HTML and CSS. Page routing using different links, project management and local storage, and DOM manipulation to display and keep items.',
+    languages: ['html', 'css', 'javaScript'],
+    sourcebtn: 'https://github.com/omarbabou/taste-food-capstone',
+    liveBtn: 'https://idriss-omar-tasty-food-capstone.netlify.app/',
   },
   {
     id: 3,
-    title: 'Facebook 360',
-    image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/Snapshoot_Portfolio.png',
-    liveIconImage: '/img/popup1.png',
-    sourceIconImage: '/img/github1.png',
+    title: 'TVMaze-APP',
+    image: '/img/tvmaze.png',
     imageAlt: 'my third work',
-    canopy: ['FACEBOOK', 'Back End Dev', '2015'],
-    descript:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    canopy: ['CANOPY', 'Back End Dev', '2022'],
+    descript: 'This project is a web app about Movies, we fetched all data from TV MAZE API, Users can like movies and also give a comment. All data are recorded in the involvement API and also displayed on the screen.',
+    languages: ['javaScript', 'css', 'Api'],
+    sourcebtn: 'https://github.com/omarbabou/JS-Capstone-Webapp',
+    liveBtn: 'https://idriss-omar-js-capstone.netlify.app/',
   },
   {
     id: 4,
-    title: 'Uber Navigation',
-    image: '/img/Snapshoot_Portfolio.png',
-    popupTitleImage: '/img/snapshootportfolio(3).svg',
-    liveIconImage: '/img/popup1.png',
-    sourceIconImage: '/img/github1.png',
+    title: 'Leaderboard',
+    image: '/img/leader.png',
     imageAlt: 'my fourth work',
-    canopy: ['FACEBOOK ', 'Lead Developer ', '2022'],
-    descript:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    languages: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    sourcebtn: '#',
-    liveBtn: '#',
+    canopy: ['CANOPY', 'Back End Dev', '2022'],
+    descript: 'The leaderboard is a javascript web app that display scores from players. Teh players enter his name and his score the data will be displayed to the screen and thanks to leaderboard API it will be save the way that others can see the classification.',
+    languages: ['javaScript', 'html/css', 'Api'],
+    sourcebtn: 'https://github.com/omarbabou/Leaderboard',
+    liveBtn: 'https://idriss-omar-leaderboard.netlify.app/',
   },
 ];
 
@@ -115,9 +99,8 @@ for (let i = 0; i < works.length; i += 1) {
             <li>2015</li>
           </ul>
         </div>
-        <div class="img-1">
+
          <img src="${work.image}" alt="${work.imageAlt}" />
-        </div>
        
       </div>
       <div class="window-details">
@@ -142,14 +125,14 @@ for (let i = 0; i < works.length; i += 1) {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
     </section>
   `;
 }
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
-const popImage = document.querySelector('.popup-title .img-1');
+const popImage = document.querySelector('.popup-title img');
 const projectDetails = document.querySelector('.window-descript');
 const language = document.querySelector('.window-languages');
 const liveLink = document.querySelector('.btn-live');

@@ -23,7 +23,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  padding: 1.6rem;
+  padding: 1.2rem;
 }
 
 .icons {
@@ -38,7 +38,7 @@ nav {
   display: block;
   width: 55px;
   margin-top: -16px;
-  margin-left: 40px;
+  margin-right: -13px;
 }
 
 .display-close-button {
@@ -108,7 +108,7 @@ nav {
   background: no-repeat center/100%, url('./img/header-shapes mobile.svg');
   background-color: #fff;
   background-size: contain;
-  padding: 24px;
+  padding: 1.2rem;
   border-radius: 0 0 0 60px;
   min-height: 700px;
 }
@@ -855,8 +855,6 @@ small {
 
   .popup.active {
     display: inline-block;
-
-    /*  filter: blur(4px); */
   }
 
   .popup-content {
@@ -866,7 +864,7 @@ small {
     transform: translateX(-50%);
     height: 570px;
     min-width: 520px;
-    width: 70%;
+    width: 65%;
     background-color: #fff;
     transition: top 250ms linear, opacity 200ms linear;
     display: flex;
@@ -874,12 +872,12 @@ small {
     justify-content: space-between;
     border-radius: 8px;
     padding: 20px;
-    overflow-y: hidden;
+    overflow-y: scroll;
   }
 
   .close-popup {
     font-size: 24px;
-    color: rgba(131, 131, 131);
+    color: rgb(131, 131, 131);
     position: absolute;
     top: 20px;
     right: 30px;
@@ -891,119 +889,64 @@ small {
     padding: 0;
   }
 
+  .popup-content.active {
+    opacity: 1;
+    top: 10%;
+    height: 570px;
+  }
+
+  .popup-title img {
+    width: 100%;
+    height: 500px;
+    margin: 15px auto;
+    object-fit: fill;
+  }
+
   .window-details {
+    margin: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -8%;
-    margin-top: 0%;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .window-descript {
-    position: relative;
-    top: -18%;
-    margin-top: -10%;
-    padding-top: 0%;
+    margin-right: 10px;
+    width: 70%;
   }
 
-  .img-1 {
-    height: 50%;
-  }
-
-  .img-1 img {
-    position: relative;
-    width: 100%;
-    margin: 12px 0;
-    height: auto;
-  }
-
-  .img-1 img:hover {
-    height: auto;
-    width: 100%;
-    transform: none;
-  }
-
-  .popup-container {
+  .window-languages {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0%;
-    filter: opacity(0.9);
-    left: 0%;
-    right: 0%;
-    height: 100%;
-    width: 100%;
-    border: none;
-    visibility: hidden;
-
-    .popup-content.active {
-      opacity: 1;
-      top: 10%;
-    }
-
-    .popup-title img {
-      width: 100%;
-      height: 500px;
-      margin: 15px auto;
-      object-fit: contain;
-    }
-
-    .window-details {
-      margin: 0;
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-    }
-
-    .window-descript {
-      margin-right: 10px;
-      width: 70%;
-    }
-
-    .window-languages {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      max-width: 350px;
-      margin-bottom: 0;
-    }
-
-    .window-languages li {
-      color: #6070ff;
-      padding: 2px 12px;
-      margin: 0;
-      margin-right: 6px;
-      margin-bottom: 5px;
-      border-radius: 8px;
-      font-size: 12px;
-      margin-top: 5px;
-    }
-
-    .window-btn-links {
-      height: 60px;
-      display: flex;
-      align-items: center;
-      margin-top: 1rem;
-      border-top: 1px solid #c2c2c2;
-    }
-
-    .window-btn-links .link {
-      padding: 2px;
-      height: 40px;
-      width: 140px;
-      text-align: center;
-      margin-right: 0.5rem;
-    }
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 350px;
+    margin-bottom: 0;
   }
 
-  .aside-clm {
-    position: relative;
-    top: 0.1;
-    margin-top: 0%;
-    padding-top: 0%;
-    height: auto;
+  .window-languages li {
+    color: #6070ff;
+    padding: 2px 12px;
+    margin: 0;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    background-color: #ebebff;
+    border-radius: 8px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .window-btn-links {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid #c2c2c2;
+  }
+
+  .window-btn-links .link {
+    padding: 2px;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    margin-right: 0.5rem;
   }
 }
